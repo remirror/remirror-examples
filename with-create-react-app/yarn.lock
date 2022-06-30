@@ -1598,19 +1598,19 @@
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-3.0.0-beta.13.tgz#049c5be5faa67e341e413a0f6b641d5d78d91056"
   integrity sha512-3zEi5plBCOsEzUneRVuQb+2SAx3qaC1dj0FfFAI6zIJQoDWu0dlSwKijMRack7oO9tUWrchfj3OkKQAd1LBdVg==
 
-"@lingui/core@^3.13.3":
-  version "3.13.3"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-3.13.3.tgz#cbeb7449090c7fe2625e8f2dae2a73e9f0c173f4"
-  integrity sha512-3rQDIC7PtPfUuZCSNfU0nziWNMlGk3JhpxENzGrlt1M8w5RHson89Mk1Ce/how+hWzFpumCQDWLDDhyRPpydbg==
+"@lingui/core@^3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-3.14.0.tgz#62e6b5e3d17b3f2ecd84b3f821d591763055aa89"
+  integrity sha512-ertREq9oi9B/umxpd/pInm9uFO8FLK2/0FXfDmMqvH5ydswWn/c9nY5YO4W1h4/8LWO45mewypOIyjoue4De1w==
   dependencies:
     "@babel/runtime" "^7.11.2"
     make-plural "^6.2.2"
     messageformat-parser "^4.1.3"
 
-"@lingui/detect-locale@^3.13.3":
-  version "3.13.3"
-  resolved "https://registry.yarnpkg.com/@lingui/detect-locale/-/detect-locale-3.13.3.tgz#5afe43b590066dd3d7801542c5945ae35af62ac3"
-  integrity sha512-GhJKjnpGh5N0Y96XJNjeGOEiVyO7b0Kwddv8cY5ORA0yS0+gCETAdlECeP0YrJBrzIVUeddpQTyaexAUDmeY+A==
+"@lingui/detect-locale@^3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@lingui/detect-locale/-/detect-locale-3.14.0.tgz#efbec423a8bf0e2785db320c5d015e4023ae8f8b"
+  integrity sha512-IELWULt9I+iyVlxGES21cXoOwTcPSIisElAmr3/KJlqvJ9zXT3s4w4Jxw9j5oHJjdxBDRkifwpnVmGd57wrmzg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1669,22 +1669,22 @@
     tiny-warning "^1.0.3"
     tslib "^2.3.0"
 
-"@remirror/core-constants@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/core-constants/-/core-constants-2.0.0-beta.1.tgz#64183cd023f65d786d7ceeafe22ce39244f6df4d"
-  integrity sha512-mfMDJgLV5/T6hc26ypKVj4LuTr8TFDGIZhxVpt43/nMOjIGNmxQISa80Wyuz6gwkvsemo1pMzZRsdgNbAfo3YA==
+"@remirror/core-constants@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/core-constants/-/core-constants-2.0.0-beta.4.tgz#b0d0a9e203be9493bcb84141ddf5718cce085966"
+  integrity sha512-L+Xwj96J0z80faZXnx6tcQY+9cXILM1+orLhmtIMztW1BblYl5Jm+iG8CVUDIhZ7TztQgCgHCt/6Kdz2XQNaEg==
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@remirror/core-helpers@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/core-helpers/-/core-helpers-2.0.0-beta.1.tgz#3ab9cecace37fe7556dccc15fec196519c35fc5d"
-  integrity sha512-Xlb6zJOU5/FLYjS0/vAF81KL0GlPg06fXqXkwl1UhNhq86vb1Ol4B6Mqd+IDjKDEwJF9fibLqyjk7rvQgnWDZQ==
+"@remirror/core-helpers@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/core-helpers/-/core-helpers-2.0.0-beta.4.tgz#60664be5643a87970597581e9bbf2d2a2e5752c7"
+  integrity sha512-yF0gPgKLyDzG+JoNldMm40ul6dwTcnikGGwCZ/QrGFybF1XFSydVzPHfheee4qh/zmpQgtmuElfv2PNT3EE8kw==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@linaria/core" "3.0.0-beta.13"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/types" "^1.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/types" "^1.0.0-beta.4"
     "@types/object.omit" "^3.0.0"
     "@types/object.pick" "^1.3.1"
     "@types/throttle-debounce" "^2.1.0"
@@ -1697,616 +1697,616 @@
     object.pick "^1.3.0"
     throttle-debounce "^3.0.1"
 
-"@remirror/core-types@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/core-types/-/core-types-2.0.0-beta.1.tgz#89a4c8256aea723657a0e0e9c73769836f145975"
-  integrity sha512-bje61s/vRDjcRIJGYkgddaKqbO6fL7LKGSPtlbG8qEY6z7aQDclSboObUg2oTXS25/Zk3fF2eqJOChzjckTOoA==
+"@remirror/core-types@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/core-types/-/core-types-2.0.0-beta.4.tgz#22e1cbe95a304876bcf3f2b558907c2651071dc4"
+  integrity sha512-GiVAOgMmOw38ai2vizhiFlZnBTnTXtgevEgBRSHrqcT4ez3J0y7mso0nQJfCg7eswbVGbKVhfwcqtmQ5MS8vzg==
   dependencies:
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/types" "^1.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/types" "^1.0.0-beta.4"
 
-"@remirror/core-utils@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/core-utils/-/core-utils-2.0.0-beta.1.tgz#25eb2ca7c5182fb2be5cf0a8aeee2774beb0111c"
-  integrity sha512-9l/Mc3PHp8SrLKuzizAv11BbYhRLtXWFS22aXxy9Y2fRy+6ao3E5khpxrgS9yetc8X53EvCa0obUzxMwQc3iUQ==
+"@remirror/core-utils@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/core-utils/-/core-utils-2.0.0-beta.4.tgz#df01efe0f4be0e65c1b0f3af6bcbdce2289815e7"
+  integrity sha512-BKOV33gdomdNvBxkaYTxZ373GzBrgLZyImmdUk59+M8wggRF/YgXkYingKhiHHFrl9XF8CIpVtIEChzrFpXeFA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
-    "@remirror/core-types" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
+    "@remirror/core-types" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     "@types/min-document" "^2.19.0"
     css-in-js-utils "^3.1.0"
     min-document "^2.19.0"
     parenthesis "^3.1.8"
 
-"@remirror/core@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/core/-/core-2.0.0-beta.1.tgz#df016d391e3ea99e6b35ff1767f47f705b43eb11"
-  integrity sha512-/pfsbqQHTcZqxcZmW7Usqei7OmxCkfAoH4q/kTKLhFB6AaaUez/11KbBC7Ev2/aLMp1ipz4ThY688r6wcgbbGA==
+"@remirror/core@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/core/-/core-2.0.0-beta.4.tgz#b0137879a6a9e863369c18671ab6931cc933997f"
+  integrity sha512-JGNVfMxPex2i9ILlblBa65Xseb5BrX2eqHEYSXVEDN/wFW8T+ZGWVwT53CFwyj0jH5FMjYb7OrzXfJtd76UaXQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@linaria/core" "3.0.0-beta.13"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
-    "@remirror/core-types" "^2.0.0-beta.1"
-    "@remirror/core-utils" "^2.0.0-beta.1"
-    "@remirror/i18n" "^2.0.0-beta.1"
-    "@remirror/icons" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
+    "@remirror/core-types" "^2.0.0-beta.4"
+    "@remirror/core-utils" "^2.0.0-beta.4"
+    "@remirror/i18n" "^2.0.0-beta.4"
+    "@remirror/icons" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     nanoevents "^5.1.13"
     tiny-warning "^1.0.3"
 
-"@remirror/dom@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/dom/-/dom-2.0.0-beta.1.tgz#f778edfcb2b49ee07dd8d5738c2b208a783c5277"
-  integrity sha512-MBYMB/SLTWaEEGMeOhSJuhM8D9SE+6DZVfiYc8Ra1C0R1n3DOOqETTQepEtomf0Xr8UFDsyxNAL9ixF1YGvHFw==
+"@remirror/dom@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/dom/-/dom-2.0.0-beta.4.tgz#0c71659cc67039d12e26ad6016de2dd19998fdf2"
+  integrity sha512-Mqh5mgpQa39zsQ10tLoKITahQciS2JWB3vyLTq4toEuZ4DKPcI0KHKA7nD+oUAVvn+d8mh/YaMQ6xll5bOJKRA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/preset-core" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/preset-core" "^2.0.0-beta.4"
 
-"@remirror/extension-annotation@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-annotation/-/extension-annotation-2.0.0-beta.1.tgz#a39b02e544d997c77d0309d53fe5031f34b269ac"
-  integrity sha512-AYnTjDvttvYdnQ4u6OXnWDEpjcpKoEZp/Sbk/4NWFW1E7K8Zdz247WENXKacdScWm1DPyw3R/e6F5CiBMFRZig==
+"@remirror/extension-annotation@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-annotation/-/extension-annotation-2.0.0-beta.4.tgz#687b251e4020f2f8b4db6e2d45730dfc05965ef6"
+  integrity sha512-gUOxsJDiLtUDLctlGG+3wL9Y5Emtcrlo4vVnGCuCepXQJq/rhj3IKmS4Gw3uIbBvXug51gFGKGbmLolvZCHBnA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-bidi@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-bidi/-/extension-bidi-2.0.0-beta.1.tgz#a3bd46a2118090b7a4a7234d6ca1543becbb846b"
-  integrity sha512-e1VzijsWxNvrKAee5fdlKhM2CcVgiJh1lGwqHmYm3keOQ5I4sNjJKZJZZJfU/P3+TOpabjhkRYgZMlGcu9PAQQ==
+"@remirror/extension-bidi@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-bidi/-/extension-bidi-2.0.0-beta.4.tgz#282ea3a700638705aea8875596e1f0415fb584b6"
+  integrity sha512-vii0kiAuxkf5/AkNBjGLOZTs2Ztg/OF8X4giCq3hlI6cYHDDCvhf9O1C44+AyrUzNbODQVDcYuHeAo79aamXpg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     "@types/direction" "^1.0.0"
     direction "^1.0.4"
 
-"@remirror/extension-blockquote@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-blockquote/-/extension-blockquote-2.0.0-beta.1.tgz#a94272f2cba90640be71c12ba5783cd71f9131e4"
-  integrity sha512-OotkZxjbknrI0HkOpHkPx+dDtJf81jZuKuf1pQn2x5mhV3FgbIIZkgKtyq0JK2bKaMKnGSurkVFl+AL73J4kUA==
+"@remirror/extension-blockquote@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-blockquote/-/extension-blockquote-2.0.0-beta.4.tgz#f9a073c013ca6f4a5100eb5c77b17bca9dafde11"
+  integrity sha512-Y5sp/LwWzzpCl2JoOwcBJC2rF7Bpv51/OXcxc9NLd7Z9/vFXWOwS5BceiWnPBt9xJI/r37V7wph7uMl2vYUJKg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
 
-"@remirror/extension-bold@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-bold/-/extension-bold-2.0.0-beta.1.tgz#65c7e6c660ef9e8cc68f895cd69e2566eef6e01c"
-  integrity sha512-sq6Ebv5XhwwlLgDEusx8I8sXqlWtPEGa3avvrLrcBJgyGjWs32/4uLW//4gD+gRawekgf9fzYG0UpEl9e4/swA==
+"@remirror/extension-bold@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-bold/-/extension-bold-2.0.0-beta.4.tgz#37345d6704772df2f2c69351b582ea6957995844"
+  integrity sha512-xRoJ4nSuZG72TOOKaIqxo7HGow4tcZ53whakHSa3qcT5WNJnfPG4OAtK82d25v3nkPx2bxNMSA7mnr5S8Sek/A==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-callout@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-callout/-/extension-callout-2.0.0-beta.1.tgz#d2ec794accedfdf350ff99f19c74e878b88174ba"
-  integrity sha512-qp3FWfvY7btcEyk7MH88sOGb7Rk7xGKRSHB5A08iICQdYcOZddOE9Q/bHMc0omxbOA6sbtLkZgoQv5gmEOP8xw==
+"@remirror/extension-callout@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-callout/-/extension-callout-2.0.0-beta.4.tgz#42514c408333bc0857d70de9f03d32e7d9b04022"
+  integrity sha512-MslHJIN7EXbkebfcpsP3i8xPqQOu5lGtI27Fyh38993kLQUT7TVxJUP+t/STOsU3dfEWxk/jPgq8fnxZ8E78rQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
 
-"@remirror/extension-code-block@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-code-block/-/extension-code-block-2.0.0-beta.1.tgz#f2cbb55ff256e7d33d0a14cf00f35ced82ea6074"
-  integrity sha512-P8FlEMVQPkVTLg/KAvB/8xL49keBRPE9W5rK4pVtKkAcugN1Gf+uJlmXFDnDvQrn5VEjGdAoe7l5+ofmcBNnfA==
+"@remirror/extension-code-block@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-code-block/-/extension-code-block-2.0.0-beta.4.tgz#3bedef909d34f0899d478fa5acc94b558e70d255"
+  integrity sha512-uVbSETgk6cxpUuk6LPvCsewQSEycsVPbvj+8yG57Gu9vXdtTyn+9e30HfttxfEnWqRLKIps5UIMuFYZbv35rRQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
     "@types/refractor" "^3.0.2"
     refractor "^3.3.1"
 
-"@remirror/extension-code@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-code/-/extension-code-2.0.0-beta.1.tgz#5ba7dd69d9bb5b51d4ecfeede3921e8270d01e85"
-  integrity sha512-J+HdGmcMTkg1E1sx+ff5SkdSRszLZt1yNeVM17kSYpaTJw9I+HNWmpmJyeDXJpqUXTCXhlRbqrWo2lka40XZyg==
+"@remirror/extension-code@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-code/-/extension-code-2.0.0-beta.4.tgz#02c46e5dca56dc68f7d5afeb4550c16af7aa45fe"
+  integrity sha512-LuwbMZ/JzTJSl2t+TIss79oFcpv/+s8OPIp/bAQ9fjWF2m+bPSdiwdQX9L3H78cwBJJuS1Gfc9gysiLhvB2SPw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-codemirror5@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-codemirror5/-/extension-codemirror5-2.0.0-beta.1.tgz#c5ba9552a574997d3d3e16c0a45ce926c941d7d4"
-  integrity sha512-C1e0i3uIEpQFVtcAL+LR+390sMcuiGR26ho1d/IJZ4vdr9vhyEQ8cIAcj4pLDueUosiASVnJ3vgdbyfN5mqkSQ==
+"@remirror/extension-codemirror5@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-codemirror5/-/extension-codemirror5-2.0.0-beta.4.tgz#56bb89e8036259b5f4f69c97a270e084862d8c88"
+  integrity sha512-NHxhZbFatheBSycbWnc4WZ+JDC1dkyB0lyDtE7o07ik438mlkk/yMUEEjsISaXZ+VlKk8eaEun8hsnn2ae5Kzg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-collaboration@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-collaboration/-/extension-collaboration-2.0.0-beta.1.tgz#2a4a00d5b23efa4bf2477925bd32fa1560e63abc"
-  integrity sha512-wG1GzD/rV2K1+blcxKts3mleD65ZV5L+yqILThEAcSrXlvtbHdGtL2d0yFRRYkwktR7JrwaIxzUFJXbDemxa+Q==
+"@remirror/extension-collaboration@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-collaboration/-/extension-collaboration-2.0.0-beta.4.tgz#224e0ccac72db60ae8fa04ca34b3de11f5b0f8f5"
+  integrity sha512-FkRNSVHWTv2FwKHC7lOux/GEteIYy3YEIrBRlIzZ/ewu7JCbTTeozi8wRW+oYXLqSRyiiURJouSn6J8NT9i8yA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-columns@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-columns/-/extension-columns-2.0.0-beta.1.tgz#cada896adf0d1f322132fef871f933a9dbb068bc"
-  integrity sha512-i2a0w+ewavAe6w/2/jgsfr3oEF+bXxn5abwHGHkgAXYptLOKQm6KHsAdQLYZPvkc/Z0svQVoOreXpL8ZVf0DGg==
+"@remirror/extension-columns@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-columns/-/extension-columns-2.0.0-beta.4.tgz#ee85d3fa939945969eaadc4b8559df87ef48b636"
+  integrity sha512-wZN6YvFGtqS+hRK2jykoGpM5C+cIuXsoRqjQfHWAj8yaqRONBuLN/jXpz3dPMxBcEKPcs5o4qxg4xGlctRcwYA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-diff@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-diff/-/extension-diff-2.0.0-beta.1.tgz#17d1b3d2ab4115f1f3235d81a8e4bf9f461c93f9"
-  integrity sha512-wKMyINYlQ+J0xF3IP1Rx60fb2+nST7lrQlwjt/NEfum/3XRHT+rjf7E4NZHeZ2/yX0NzpxcvqcEeetzX2Y8msg==
+"@remirror/extension-diff@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-diff/-/extension-diff-2.0.0-beta.4.tgz#e7fdfdb83b52807d9a15a709cf00e40c83af65d7"
+  integrity sha512-ubaWdgRjSBU80k1SORJBzGSKFKRAaHGI0hhKNdrYtpRljN+h6CUbsveNKQdBnDAFZOv+XehI3tGcFSQFr2zsmQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-doc@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-doc/-/extension-doc-2.0.0-beta.1.tgz#58f10248b4f801fcfc3504c1397037073b5bf7f1"
-  integrity sha512-wirleh/dcHLXMg+RwhejI5xgqrFCH1MNJOhlzJnmBUGlk6QIPPlPea0CKLtVU1c3PznWDnN2XPN/cckt9eq9zw==
+"@remirror/extension-doc@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-doc/-/extension-doc-2.0.0-beta.4.tgz#0eafa5f69682a5f35447907cd2f349995bebac61"
+  integrity sha512-4dS06pjXfSYAeYcZUkzyU8Hj/RvhodHMuMw/lTabdDELTq6S7Z2tlVH6uruMxiEFACt4W74Uqxt3Y6LsQlHnXQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-drop-cursor@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-drop-cursor/-/extension-drop-cursor-2.0.0-beta.1.tgz#21414059fe3c01c04f024de9eeda5f862a33430b"
-  integrity sha512-kMZDoeA7Q9auqbWoDt1w+qr4tHcHv4LFAHg7E7ZMlmFraRHp/u8yMmnMMOcbbPXg2vbJdVnqtRZJ5QeLIve3Wg==
+"@remirror/extension-drop-cursor@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-drop-cursor/-/extension-drop-cursor-2.0.0-beta.4.tgz#cf16464e97fccfcea12d7ef7cba4d765b944ffe8"
+  integrity sha512-fZ5vEh0UzCq0za3QWoDRdgPNu4aB7LWBkGw+n5CCtnEzaS8FWjI94OqvFDnig0iHQWTlM7U7c3s3i0Tr/pmzWw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-embed@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-embed/-/extension-embed-2.0.0-beta.1.tgz#cceeba15f2bd884fd8ce6bab8bcad464761787a8"
-  integrity sha512-XfPCJ1TLEEAQECf7YXcCbv79wAUM6AqplcfizAL/7ks9lX1K8OSyV6ifaxlONiZaNUfd01UyGRFLKJVfg33rdg==
+"@remirror/extension-embed@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-embed/-/extension-embed-2.0.0-beta.4.tgz#78ceddf2161ba9ae5666f70ffacb99c84f03affe"
+  integrity sha512-xBKKeN8sfXr4SAo+iqrD5HO/3Pt9ad3+Z4//2MRhGp97yboPFD4SZKNhwYpWAfJ02gvXmfQVzqh+u3I1ASSQtA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     "@types/querystringify" "^2.0.0"
-    prosemirror-resizable-view "^2.0.0-beta.1"
+    prosemirror-resizable-view "^2.0.0-beta.4"
     querystringify "^2.2.0"
 
-"@remirror/extension-emoji@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-emoji/-/extension-emoji-2.0.0-beta.1.tgz#7256dfc8bb9d670524a73f90ab8783ba455b97c6"
-  integrity sha512-Hc5Q2vrWABz2KD+uwVvLO072qQGSXIteOft4HjTetRmhsLsynyfWFewhRfOizEaBxUC3mDGSslBeOHLESSPF+g==
+"@remirror/extension-emoji@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-emoji/-/extension-emoji-2.0.0-beta.4.tgz#b200eae00b57029e77942b088e11afd9b7f4108e"
+  integrity sha512-afLYfkPr5QRTRnp11X/YFeB6siUlZDOurMypef12eJ4cNgMufKy/0SBIIXsqsgx/QpoH5LYZvTYVTbegwBG9Dg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
     emojibase "^6.0.0"
     emojibase-data "^6.1.0"
     emojibase-regex "^6.0.0"
     escape-string-regexp "^4.0.0"
     svgmoji "^3.2.0"
 
-"@remirror/extension-entity-reference@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-entity-reference/-/extension-entity-reference-2.0.0-beta.1.tgz#86502521794e0187f80044732b8c0a1681999cac"
-  integrity sha512-VzsqN8IUbCyNoJfnOQPa7Vgq8nr35a2OLn37j5bqKOk21VyPkuZzWRqC6uSdje7VTf8EOcgOxjQ/tsJjFKi1NA==
+"@remirror/extension-entity-reference@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-entity-reference/-/extension-entity-reference-2.0.0-beta.4.tgz#38e25d9e2f667f2f3e20ee8530e00830726a941b"
+  integrity sha512-ywXejoijf8beDp3wH2vl8d9T8fHmvP9wA7uQK64N9s68+MU8KlY8ITZ4npoGTr9ItPlSPpxZ21pSnKDuMEMwjg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
 
-"@remirror/extension-epic-mode@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-epic-mode/-/extension-epic-mode-2.0.0-beta.1.tgz#ee170d34a6e4dd84c630a9fde3a8586af9341077"
-  integrity sha512-dEkHyBlRlqJUngw4wgOk85fFICEtCIeQDDdfxeah7rMeDJSz3pbJYrcTZ9Vut8hMfYOQ8fwg1oD4W8EnB0yc4A==
+"@remirror/extension-epic-mode@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-epic-mode/-/extension-epic-mode-2.0.0-beta.4.tgz#1c1ef391fa2062da267890ce2eea09648f12e3ad"
+  integrity sha512-ZbnmbBlfUpw6dd6Re6ti1d6/8RITSwzBtuxxqXBMdDuO0cPB55Iv/yJUzjWL9w5R10TZHcwTtMCjjUFM4uyYcg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-events@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-events/-/extension-events-2.0.0-beta.1.tgz#e4d1bfd831244871f898fc5786deba3a372cf143"
-  integrity sha512-AyDDckxiK3wM22Bs7Q4piNQ7dqb4JCyEbs9FSqgt3W+Nixlxq99peIeojvcdBu7I0N3Xtt4nGJ3l/2k2QrZBIg==
+"@remirror/extension-events@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-events/-/extension-events-2.0.0-beta.4.tgz#808de6de8a25a8bcff99accf4ccbef851df9208f"
+  integrity sha512-JUTMPWiOFeGS/NFPVxs/IYqlN461siNu0GW9gmLM+ZTWY0cV3p0R37MraoU8yf4gdyAJ/txuw7ZoUvlk2U5CYw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-font-family@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-font-family/-/extension-font-family-2.0.0-beta.1.tgz#13b87ea505fd26f1233bc0fd81f5df5c8a43e549"
-  integrity sha512-Q/4LFdNhOqZIRCKmOsnQPsJiTfEFl+rMp9EHNJ/JIwa+RIR5xJVH+mOYVpYib1wfALEfecm1EOhzik3inNMs0g==
+"@remirror/extension-font-family@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-font-family/-/extension-font-family-2.0.0-beta.4.tgz#44cdb95aa003e4e832feec18312ed29a8e02c578"
+  integrity sha512-nnSxV3Ql7zVYl9v8xzCUGrS1+6MjrypJ0rziSlJOGNQmNbsY3tfFATRAO/mymhXaOGSt6ZxDBEu4cEeFFkg8qg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-font-size@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-font-size/-/extension-font-size-2.0.0-beta.1.tgz#2a0079d4c79b7e3cb98266c98cfc12254d229675"
-  integrity sha512-bkNVUn7CJ3acOzMME5lE1lyQcPYzO45dqoOCfgI6jdG5R0oUg8HdIXTTH/MCHLJ+TkoQCi4wgpRL0sdKxjJZ1A==
+"@remirror/extension-font-size@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-font-size/-/extension-font-size-2.0.0-beta.4.tgz#fd46c304d39c6d80721abe00b12d6401566c6ec3"
+  integrity sha512-htAjKx/GHm+xfwnZTWiApre+LTDe4/TZK5Vx4nBpNKmkJUwCZM3PesAXissffr32pPLGbTyvGEpamnJsnjn8yQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     round "^2.0.1"
 
-"@remirror/extension-gap-cursor@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-gap-cursor/-/extension-gap-cursor-2.0.0-beta.1.tgz#30140baa7ef9cac90425399f5164055b2d6f78c2"
-  integrity sha512-qKGJ86sbN3HOiJKB0DVd4CX300uhBfns324lX3OL4fy7EbbrPy87Fnmp60uor1Od7ekuQzOfDNQxEfBo0XzFFg==
+"@remirror/extension-gap-cursor@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-gap-cursor/-/extension-gap-cursor-2.0.0-beta.4.tgz#a441d8f184fa81e5af5d9274f20506b1971c0a7c"
+  integrity sha512-y7tLAJWU3KJVQlcfMhilukKlSlJBh1PULh6TO5U91al5CXKfGArdr1NeosFWMiPdf5v1olB9fomlpszO4z26DQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-hard-break@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-hard-break/-/extension-hard-break-2.0.0-beta.1.tgz#3e35dc7a428c8f96f5a89f2786d3e201e0e353c3"
-  integrity sha512-Q8odCX6CU/L01/fgjbes9PdP4z5AG8ksOqslrq/0P2uihuE5H0LX48CNhKTxqTMW35uFtveJBR+CIJEnjSxnlQ==
+"@remirror/extension-hard-break@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-hard-break/-/extension-hard-break-2.0.0-beta.4.tgz#57194675c729fe4f832668695adf440cbf53889d"
+  integrity sha512-vzlC48OrIyyZb3TQ2eKhOcv7jFkFD7y0xOLBDzmHsJDT/pG6wvcSOJ0wbAcgKUmjej/6RlGCyhmGlQ8OftonJw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-heading@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-heading/-/extension-heading-2.0.0-beta.1.tgz#3883df555548e2d340dfed11fa302e463e790261"
-  integrity sha512-dk5XMqYXc5zVmfUgAmOqq8Ju25gAvJ5hMK2Cm6OXGrzijgHhcbWjjWGlHvMPCDHl/4tw0yZT9aD9Djg/WD5qVg==
+"@remirror/extension-heading@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-heading/-/extension-heading-2.0.0-beta.4.tgz#ad2f2ea46c697f642a2007036a20152840ff9893"
+  integrity sha512-hD6md36G4b2Hr+0yrINai4UwqXt8XNNYHPzrwgEOVLiyEd0nwOJObhlK2wvSWRO8evo2ORE6+G4aGdMat1Vt8A==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-history@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-history/-/extension-history-2.0.0-beta.1.tgz#451690350db7ed36748240813f57b17b2300ae26"
-  integrity sha512-RPaOEdFqEQxHRuIuZWOkYTaz3F5wGT8J79nuN6u31GGmYuVvhin3XOJikP9pLNzhh1u9MQHhvENSFIo8HHK/og==
+"@remirror/extension-history@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-history/-/extension-history-2.0.0-beta.4.tgz#5e9b4fd6a4ebdf4436ae9d492d387af57fd15183"
+  integrity sha512-o9Bs58rOMapTGVtavBf3hCJyMnEgJi0LOpLlAQdJwqSeboNWprIhyVJ2p5TWsrm6E467BSuULQNGTtJHwvbMsw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-horizontal-rule@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-horizontal-rule/-/extension-horizontal-rule-2.0.0-beta.1.tgz#cd99cf4f2697d2e0c6a3eece11e77cf8a7865b78"
-  integrity sha512-4sfdLXLZ2l3V5c41WK8qLUU0TLazTWIEU1aBGkaR56LeRNUN/qNyyB/8kWqd1NsTFHV2p9sTUEA2jDJfPX6oaw==
+"@remirror/extension-horizontal-rule@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-horizontal-rule/-/extension-horizontal-rule-2.0.0-beta.4.tgz#53a7a426a5cade1f3f411b515a288b4ffad9174a"
+  integrity sha512-ahHFs3RMqUPT6jinH+a+aTd7obHE02JTIB5Kq1yC3RBvnmsVzerDCwYi0jgCEkErKAR8q4RaOjaDOxWQ8buVOw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-image@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-image/-/extension-image-2.0.0-beta.1.tgz#986e71bdb3c0d59ca368193a30942a346141a954"
-  integrity sha512-vHYn7SVtL4Ee8qanqGAqtgOrH3AXbNe6ycUJbEhaLwqEbxd2b1Ujk709T61v6fDHlSVtZUt/gUqNkmD0qlQugQ==
+"@remirror/extension-image@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-image/-/extension-image-2.0.0-beta.4.tgz#3126846386a7791dec82b4394c2ea7540bde5698"
+  integrity sha512-yyARZkIuhXMIQRkK6boyB32tnG2GT2rUNoJzlznl2IUXj36XbxifFVVJZQWK9PQxwzChSAOUZOVu4wRds4FtJQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
-    prosemirror-resizable-view "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
+    prosemirror-resizable-view "^2.0.0-beta.4"
 
-"@remirror/extension-italic@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-italic/-/extension-italic-2.0.0-beta.1.tgz#b5f13e4e088c368c2975b2be7299e5f6a786a5bb"
-  integrity sha512-HpJba61fKIcYyxx8/e6PPzcUZaJbh1BQQz2BG1S9c8hx57BJib5FWIojrxcKTXVq3C9KTs9SanEQ+1EFL2zPaQ==
+"@remirror/extension-italic@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-italic/-/extension-italic-2.0.0-beta.4.tgz#bb3189440aa98ed2a05ce6bfbe09834c31790db3"
+  integrity sha512-SfQHpYLof67r+Qx0CVf9EC6yxSHiNsGN+TVDuXnKW+Ju3NAgOW736ngUumEggPS2yWXIhRvfXjQU6CbyNBIMQg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-link@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-link/-/extension-link-2.0.0-beta.1.tgz#3605959f53577cfb55614804cd16948595434796"
-  integrity sha512-IDh7VC8002ajerhpyea+C8rKCz51+8UdBl1JA0zOsTzB07F6KQ0DscVFVLmTYsGGuhrrb45QaEEock6VS5PsTw==
+"@remirror/extension-link@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-link/-/extension-link-2.0.0-beta.4.tgz#6acaac75fc4443c0dac69b8783f444ffb2cec40f"
+  integrity sha512-RUP5eFVxV8teqNjlewfaP+RylL0FAGVb2Wom8x8RnnOVHKk5XSLgYbnn4fp/MBdwf6lxjwhiev65Nw3fAFA7MA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-events" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-events" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     extract-domain "2.2.1"
 
-"@remirror/extension-list@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-list/-/extension-list-2.0.0-beta.1.tgz#cba99b64e15f3d6184e0aff2927a1ed00fe15f68"
-  integrity sha512-LbVkAoXHAR/1SMK65sekQ0Z7f3bH2iyByZ4OqmzR79TGBT9pwJBKjDvG74eRygBj2LX0qKlHsgZkoCuuXLJpjw==
+"@remirror/extension-list@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-list/-/extension-list-2.0.0-beta.4.tgz#1bbfa41a3d0a3a28c4f67cb3707803e105b84084"
+  integrity sha512-47FtHHAyxchWhROzRcUK16E6Ls+A+BCJd6wYnxSanM5DjPuByaYy53Qdi8pVUBnr/73c/3UQUgIraEpj2tE6aA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-events" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-events" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
 
-"@remirror/extension-markdown@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-markdown/-/extension-markdown-2.0.0-beta.1.tgz#d78f6bb0a4e9b64dfe28cc5c45c1ba928f6d8958"
-  integrity sha512-KJ712jizUgFIG+Tux+AGKUbqvDQxLlhR6GzHumFeJrP5HMDu0gaiGi3j6OwV+8Dy0oprleMEAdhTD3NNgd4i6w==
+"@remirror/extension-markdown@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-markdown/-/extension-markdown-2.0.0-beta.4.tgz#a201b445ea41362f2de311b18150658a799e6c76"
+  integrity sha512-NsFMJYTdYXJ5Srw6SffGalFLG4yfh/S6iSDAbRb/UY8fsV5+pzmZNzYbJ1U73sh58xdbteQbcaqbnst83kHQRQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     "@types/marked" "^4.0.2"
     "@types/turndown" "^5.0.1"
     marked "^4.0.12"
     turndown "^7.1.1"
     turndown-plugin-gfm "^1.0.2"
 
-"@remirror/extension-mention-atom@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-mention-atom/-/extension-mention-atom-2.0.0-beta.1.tgz#2d1372cce3abc4e45aa4dbead51ea3c07b22f44e"
-  integrity sha512-8ljfuoD2LfZhLQtomorDPdr6mMd74Uxg+vvVQ4w8BWALu425bjfk7P1qPMGeoVGMk7uCB+4oKx0sidyghFiJ+Q==
+"@remirror/extension-mention-atom@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-mention-atom/-/extension-mention-atom-2.0.0-beta.4.tgz#b1a85ba969295620ffeebdc611ff34d0e59ce68a"
+  integrity sha512-JCQJ0xhNSJDDr2jg5bT06Mpys4iTLgZ3P+YWKyfCFa7lsCAI62t/qxeulW7cRbRvFP9ayNIWV3qmtdOc83mS2Q==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-events" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-events" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
 
-"@remirror/extension-mention@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-mention/-/extension-mention-2.0.0-beta.1.tgz#d1e4a9687f719680ec52526e1ea746dd33ff7183"
-  integrity sha512-ug9zPKDisewM6IZBnRgPZeTIHAMT1+AmOjcgPn5gJV89a69cc+WaNxJh1g5z9RzlMkH1vMUzTIb7ghXUVxUzYg==
+"@remirror/extension-mention@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-mention/-/extension-mention-2.0.0-beta.4.tgz#0fe4f0064d5df78c908a7ac0567218863b176fa7"
+  integrity sha512-coZiUqvt1rqTNFCw9MNMpTHFHxogxuUYBbIi30Fk1km1XzTL7mRkS0DyXR9/4Cs6iDBGdQjpdLAYdjlpU/OxEw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-events" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-events" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     escape-string-regexp "^4.0.0"
 
-"@remirror/extension-node-formatting@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-node-formatting/-/extension-node-formatting-2.0.0-beta.1.tgz#dda1b1af8c85d9022f1c14c00fd1762cd5e91a71"
-  integrity sha512-BT2wH0YY01Ax8Po+KLNE3pqJ8Z7MGVgOH1uNLNVA3q0F0B5PL0Jqyi41q/PRIQprojzg6FrbaXSfNzTa3ifcJw==
+"@remirror/extension-node-formatting@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-node-formatting/-/extension-node-formatting-2.0.0-beta.4.tgz#8f234e98ec9654faa4ae3e1b786d3c43e3696145"
+  integrity sha512-Tp72BY1hck+WJSnBQkqevWsKB0OL+gO803/5gECe4eYYhzGCN0gkg40u/ulYDU1dq6/Ju8gfVNcgDvmAkkHRjw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-paragraph@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-paragraph/-/extension-paragraph-2.0.0-beta.1.tgz#c76cd4f20596a5d0d5a09383b703bf24810f250c"
-  integrity sha512-ZeNBBlwMz0LHL0AFT9X2uoL2L6dY7+naZrdZHo6sa5iuNwE5CwTkky/me89HtiZQSkIRYUX5G3At4sbQA0AkoQ==
+"@remirror/extension-paragraph@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-paragraph/-/extension-paragraph-2.0.0-beta.4.tgz#105fb0bf3b3f22f421afed811af4bc932fdd6c8e"
+  integrity sha512-BrIyHLZJtmoywagd2P8/hQsDrdkJdfH2cvrfZ+CmuqYktwl8+D4AVHvrOTBMpQhwr6Hdp8QSjIvD0Q1uL9YZlw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-placeholder@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-placeholder/-/extension-placeholder-2.0.0-beta.1.tgz#e9dfb448b6465ec93f8086e32fc6e7bafb3c7eec"
-  integrity sha512-YXU4G9i9kII2bjwnFwSiOKQD7yP/tNUlXYtiHeEauMDuAtWFzcoJsfkMs4PpBCE6qC2w+cPgCaZnmxvqoka/rw==
+"@remirror/extension-placeholder@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-placeholder/-/extension-placeholder-2.0.0-beta.4.tgz#570413c51acb2ebf51224a9beb72ab9d7b6dec30"
+  integrity sha512-iivx6QNuQkx9ccK50/I/xrtdlINMnawon/AeUGRN3ulOCSsyipV22BB0Fiix+GlPxv4AZK/6MPCb40If/VMY5w==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
 
-"@remirror/extension-positioner@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-positioner/-/extension-positioner-2.0.0-beta.1.tgz#36dc98a664be9ea36d3cc8b06a636f26078c6678"
-  integrity sha512-c1l8EguMUbsCxkJd1TBwRbPAHgGqF/P0s3KUMi3P4qYIhqF12YIFVYQwMm+a5TscNCb2lFHzxO8K4ArBMA6oNA==
+"@remirror/extension-positioner@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-positioner/-/extension-positioner-2.0.0-beta.4.tgz#4bbbe93ff79220570365b8303c7eb779584f9002"
+  integrity sha512-P7xUOh0QOlmOk3Gf1Boo94ckq2WnqZghTn8eKxH/X/HXrJhaOEGySRweIRpIf4NCjwi+xRzsFNPv6w0gAfcBig==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-events" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-events" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
     nanoevents "^5.1.13"
 
-"@remirror/extension-react-component@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-react-component/-/extension-react-component-2.0.0-beta.1.tgz#6d467c78bb1ea2e33150a741c2cacfbbb520346f"
-  integrity sha512-laAH+cKG0wpUzz+M2iSYinB372C96gClhDyvwQhfw5h5c/hUBgIOjgZaUylof+a6eLea03OKlxZiJc8VrpmNsw==
+"@remirror/extension-react-component@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-react-component/-/extension-react-component-2.0.0-beta.4.tgz#99e97a3da20fbead4f89a1999c2633dee548894c"
+  integrity sha512-CE8a4ZQUjygywHE8kCvP4wdm6kypjqATtMyiFJTiyU40iCiqU/buqq9sRknvWk9cQjAwfVQMWIuZNW/c2cxEtQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     nanoevents "^5.1.13"
 
-"@remirror/extension-react-tables@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-react-tables/-/extension-react-tables-2.0.0-beta.1.tgz#c14cff0f3a8cc1dedb9b56495e30beaffd22ba9c"
-  integrity sha512-D2DtTO7jO2NSXkpdewnx787jqzXh2J/4h9AL0Mlvh8hNVxN88zeeCtX+OgAkzxnLojgYhWhI4MBHZBz5SzjHaw==
+"@remirror/extension-react-tables@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-react-tables/-/extension-react-tables-2.0.0-beta.4.tgz#56f6545c35dcc8f92e2b3fa28960d912433eb5de"
+  integrity sha512-mXgcCjM21cQfj9jyu8/FwIt5aVqwDeX+VszirH5OXL2wC8YXo5f74KA2G4yCV8nj1nzFIMfn1JY16A6R+mWaWQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@emotion/css" "^11.1.3"
     "@linaria/core" "3.0.0-beta.13"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/core-utils" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
-    "@remirror/extension-tables" "^2.0.0-beta.1"
-    "@remirror/icons" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/preset-core" "^2.0.0-beta.1"
-    "@remirror/react-components" "^2.0.0-beta.1"
-    "@remirror/react-core" "^2.0.0-beta.1"
-    "@remirror/react-hooks" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/core-utils" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
+    "@remirror/extension-tables" "^2.0.0-beta.4"
+    "@remirror/icons" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/preset-core" "^2.0.0-beta.4"
+    "@remirror/react-components" "^2.0.0-beta.4"
+    "@remirror/react-core" "^2.0.0-beta.4"
+    "@remirror/react-hooks" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
     jsx-dom "^6.4.23"
 
-"@remirror/extension-search@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-search/-/extension-search-2.0.0-beta.1.tgz#cf862c9d26e7019ad0758d00aaf75f5ff2e05860"
-  integrity sha512-cbL+VA2LLRmYNfW+t3JtCWIfqy5DzukbqG3eS2yMetgKK3vhWxOd8fQbtAeRgotXgRYVLDWut0dW+woDdp1Nig==
+"@remirror/extension-search@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-search/-/extension-search-2.0.0-beta.4.tgz#365d8860762563798161c09c39ddd76d8733deca"
+  integrity sha512-SjDwJlrKz/pljWsKDF+pXqSmqPuXpe6zk4TimoxlbLrmWn9jJvZP4CqPJMgl1O7V4HKYmrFNPlv2xvrEmKkxaA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     escape-string-regexp "^4.0.0"
 
-"@remirror/extension-shortcuts@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-shortcuts/-/extension-shortcuts-2.0.0-beta.1.tgz#351ab63ee1e512771f12f8eeb8bbd58cf6bb07ec"
-  integrity sha512-WJFXBOBuGYag7j5i1lTGy4rJTxtQqm0FTFHTyn5NUUTticK9UQ6uuabpZL0AueLaQadGMRZOe+VGHR0Yr69gXQ==
+"@remirror/extension-shortcuts@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-shortcuts/-/extension-shortcuts-2.0.0-beta.4.tgz#43d4029d1e139c987e3ba496b4add448f68d622e"
+  integrity sha512-um0mSJ8M47T/USd4C8oBR+rZzNgG37mJetOIqB5n7k+AALDQdyKZ7m4QkDMOeNeas7ZkGCGFKXTnpUoNaIzKBA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
 
-"@remirror/extension-strike@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-strike/-/extension-strike-2.0.0-beta.1.tgz#5e2e01c8d90ed0c06c53f9a7fca382aec64f49f5"
-  integrity sha512-SlJOSx06tPZw4Ie8iiU9xgfbEMq1lTAGZ10N+2iblQ48z9/UN5Cb9ZKKVE+qApaXqg/E5anFOabbNuTls6Qd3g==
+"@remirror/extension-strike@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-strike/-/extension-strike-2.0.0-beta.4.tgz#632f735de5449d888ea4fb10fd515d0859b1a13e"
+  integrity sha512-JZP7cVFWczsYzBlatZBCMvi5ikiki+ihJWZiJroFF3Ygd2mRIf0+YdQEa+wUe2X4YOVy7mx/lt9sMDZlDHUz1A==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-sub@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-sub/-/extension-sub-2.0.0-beta.1.tgz#9428f03fedafadd2b23d68e30c444b49e0671da1"
-  integrity sha512-MRdwbptj1/GjkRozbeariP3iCOwtZOW+Tfd5tz9U1NM+lTLXOM7Z6W7llS2DZMJTmgVG9qgwGo76Xj4TFUNXNA==
+"@remirror/extension-sub@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-sub/-/extension-sub-2.0.0-beta.4.tgz#efde9d8e01762dfd63d153b3f5d36609c026bdc6"
+  integrity sha512-7FI5gjoepwY6jCF+h0iWYvF1aQhn/k0g5yYqcGvjm7VOj0iWdf05PnmzcMTt1pUuC/6JbRQMFqb+Pz3tVZobGg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-sup@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-sup/-/extension-sup-2.0.0-beta.1.tgz#784f209a4b9f5f48c166facea9664dec558b13b4"
-  integrity sha512-Tc+29Htl4+7K5ZjhR3ZJuZohJ34eTIlTEu1HOizfxrWg4ZJxZ1d/A3PmMGcssl4Ugntw54YdkXAq4lVDZRiolQ==
+"@remirror/extension-sup@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-sup/-/extension-sup-2.0.0-beta.4.tgz#9956e5e748f13bd8cf856a27ffcbc2e3eb1e31c4"
+  integrity sha512-uGhMd6pBtvgb9H5Tf1NixCWUw2H4OAnKseedo47oHJfcSOSvmqLmFG4pTNFci8q7KA5xqmdpdenGbIRHgbPiPg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-tables@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-tables/-/extension-tables-2.0.0-beta.1.tgz#51e66566576120da69d90d11ecef2fbd185e8d80"
-  integrity sha512-b5YmQqDWV9e3h2BfcFLb7xqfso9k8YRZ+esup16zeUySttnPKCuCoi/jRRGq4JJ6JQ1ltF4I3G+gE4HmZoGU5Q==
+"@remirror/extension-tables@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-tables/-/extension-tables-2.0.0-beta.4.tgz#cb68b759334ee3e5ea8f18a605706759bc38c887"
+  integrity sha512-Tah7fSbIfcpGXY5d4R6iO/OUwxVjgctqobIikc+bOWc1pUu9JuYGnZr5dR7bFueQFtmAerr7xaLubr0hlKkeTg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
 
-"@remirror/extension-text-case@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-text-case/-/extension-text-case-2.0.0-beta.1.tgz#f7ac2afab61ec6b953d944cfdb4dd8cf2b576e65"
-  integrity sha512-Pj96GM5hOM6Gz2m9S8IVKWxwub0jZRRUbXsu5NmjTUqAittIXIy0xhoUC9SM6LeIfPj1lVm8nwB9r+sg+OFomg==
+"@remirror/extension-text-case@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-text-case/-/extension-text-case-2.0.0-beta.4.tgz#2bbbb36ae0e92f5f1c78e346e96e34258e48facd"
+  integrity sha512-RP8JQdLtzP7IMAuYuM3uwmLSysRsWpuZenoEHhsC+TZaj7K81Q24v6gxyqPufMxd+jym+sGoC7uJB4LD/FH7Qg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-text-color@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-text-color/-/extension-text-color-2.0.0-beta.1.tgz#dec56df092dd13bb4588e6db13cfa06cea73971e"
-  integrity sha512-NgtbGnFi3VlFTn/MW4tBg5vCTcgK6ZwB3YnPGsoYqN2HUWsU+xsvoo8UiaqFLU6jiZP4Tfil+CfFLpuf8/oV0Q==
+"@remirror/extension-text-color@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-text-color/-/extension-text-color-2.0.0-beta.4.tgz#9f425b49964542273ce988c65e1f991b57cf5e09"
+  integrity sha512-o1clMl9K2Ozuw6yqedW2OSrZ4iDNVq5MEtbiahB4qzvj2dBfrCCfhbUX2Uihtv9a3sV49E4yDPOsA9cmTXdPaQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/i18n" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/i18n" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
     color2k "^1.2.4"
 
-"@remirror/extension-text-highlight@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-text-highlight/-/extension-text-highlight-2.0.0-beta.1.tgz#3b5fcc7a0fc588643fbfa09714b6822e0193dc69"
-  integrity sha512-ohBrpO+KuiTg/IB3pcCJyyLQEmCXY6lveZm9HHJ0eEWdySoIEQJUwpRPeHr1NKSIc+e396V1uTrZL93/t0Ndrw==
+"@remirror/extension-text-highlight@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-text-highlight/-/extension-text-highlight-2.0.0-beta.4.tgz#8b31b302b078258c1835f4435da593e00564fb6e"
+  integrity sha512-s78cdZ2VGwqjh9s6zaAk0UlhNSnx8D5JZkLm4YSlTN33XJ+a9SNTs+fmoBLYJyAfdUwHrAxQrYErYopP5jyuMQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-text-color" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-text-color" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-text@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-text/-/extension-text-2.0.0-beta.1.tgz#d8004955464b2fe8fc7c6d1acc5a8d20c0679e63"
-  integrity sha512-UCKuXxeB/aCvPgUtH9BYBMzWaQZLFQ6xjXVvIF60jVVjuEtLWoOMH5hMk8pGzuFLMRx7JwGo7mt9lekN1qOKzg==
+"@remirror/extension-text@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-text/-/extension-text-2.0.0-beta.4.tgz#e58f7f153834fecf36749b99b9238b7086694c72"
+  integrity sha512-j4v6m0yEY09GGm1UF/C2XqxKm/rOlbNxPknI8tVGd4BdWvSz5mHG95g2+JDrFj7gY/3WkDbus7eqJnoG35JOVg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-trailing-node@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-trailing-node/-/extension-trailing-node-2.0.0-beta.1.tgz#83ea4ab2d3cf3b03623da04aa3b9bbb7e0c26433"
-  integrity sha512-VviMoc8VUuHOfGq++eRrUEEZBdZpJIKo9DmStudNnRAnlZdEzfKlaINBe1nDtwLGsWs+ClqadG4Opo249BkCNQ==
+"@remirror/extension-trailing-node@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-trailing-node/-/extension-trailing-node-2.0.0-beta.4.tgz#c3277581f5ee6b9a5e05c42d92a4926e488653cb"
+  integrity sha512-0/s0Zt1Mcf9NbGQF96TlQhltELQvqMIlB89GLc2zOKkrye4GbiK8cAFYBBepnMJJVin/eEyASxH2G4yzP2BTsQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-underline@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-underline/-/extension-underline-2.0.0-beta.1.tgz#04aae7080cb91320bd6ae2165e31395a1d9e6973"
-  integrity sha512-zRlsbqbDR3PmPof7zrlLQiGrgNpSRiN0vXPCESaaifh988mqgSfjKiyCXGfazNpGdn0vobWW+tzp7y6ITKjEHA==
+"@remirror/extension-underline@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-underline/-/extension-underline-2.0.0-beta.4.tgz#0372c8ece73cd1ae2615c5885d1b534ed2b3e7d9"
+  integrity sha512-ki1kMm2h9vKxPbM8GU5tLAmu/4+uME0EOqNDOCQmHldpWPUlyvZxgIwESwDK1jigiwUqOrAU1zpRbCp82Zm3zQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-whitespace@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-whitespace/-/extension-whitespace-2.0.0-beta.1.tgz#520451ffa5c74ec8ac7e3cbe5e1b01b8e4bdc82c"
-  integrity sha512-/Wk9XgdkTr00kAfRYo2tT+bo++q2nfRygkoN7tqSodBMpMC1807hnyqi8P10DYJIoXFTKUnTVL+8Q0dLf36pFA==
+"@remirror/extension-whitespace@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-whitespace/-/extension-whitespace-2.0.0-beta.4.tgz#82909e7b8c96fcfe72bdcf7f36b81d65c28cb650"
+  integrity sha512-0tT//hOZFjrXItCtobboZlSke1MwfGf7gTKSr0/etOQLebs4WzlP1sPPP5lAgGVruPrL0EiQM5RSbUrbS88EBA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
 
-"@remirror/extension-yjs@^3.0.0-beta.1":
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/extension-yjs/-/extension-yjs-3.0.0-beta.1.tgz#bac9f7b886cc311461c703d8d97759a1853f95aa"
-  integrity sha512-0FjJT5Gq8ryNilP55THVLxSbMGw5jEuNVG6SBUDOfHBAzuahLjwCccvObYUddtjS3ldfi9Pm1Fjm1Mv6cAQP8Q==
+"@remirror/extension-yjs@^3.0.0-beta.4":
+  version "3.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/extension-yjs/-/extension-yjs-3.0.0-beta.4.tgz#e391f6282753931059a06562ca1988d51de172af"
+  integrity sha512-fgz7CjYqPhQaIC6GizEpIplC/spW8L/afeY0IyfnozaaC9SsUm3OCMUMTT8+Sl6cyFZNnOxRfwn7u8PLI8OvUA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
     y-prosemirror "^1.0.19"
     y-protocols "^1.0.5"
 
-"@remirror/i18n@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/i18n/-/i18n-2.0.0-beta.1.tgz#612a1ea946a661d40c87740e6ed0bb7e32d36763"
-  integrity sha512-yv+i/zEsExU2DBeq2L2H77sF2NT4Igtn1FRc2B3/1j5+p+a2jigkTg0DMKtlrSr/Tf2D4PaEoqYIrXosDIAmfw==
+"@remirror/i18n@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/i18n/-/i18n-2.0.0-beta.4.tgz#28a1e64062557f9c724de5a4d245a3e480b6654f"
+  integrity sha512-53AyYMVO1yY9/6PTt93vemvnudvDH09gwbJPs46dw72CEJam/8N/igTh1f9TNjOvPo2MZu2ixmNKKb+oj43GXg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@lingui/core" "^3.13.3"
-    "@lingui/detect-locale" "^3.13.3"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
+    "@lingui/core" "^3.14.0"
+    "@lingui/detect-locale" "^3.14.0"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
     make-plural "^6.2.1"
 
-"@remirror/icons@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/icons/-/icons-2.0.0-beta.1.tgz#f7ec17fcd913eeee506dddc47e4123fd9020b9ad"
-  integrity sha512-YaMsbCGuzpUIILBTYlQPogRYJdY3RinUTZKWQMRxwVYp1XDZ9FKsECEKUGJKbcmMc7yiM9rPdUZaZ0Kg/2Y/Gg==
+"@remirror/icons@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/icons/-/icons-2.0.0-beta.4.tgz#5cd44027363cdb27b30c5cec481830cc8c541b3f"
+  integrity sha512-xrSy4IgcXoNdpaVCC0YT5KWLmmP5chCbS7Od/HP3fQGJ9N0kU6Jr9pW97zPRYMkJh3VvbAHysv+ZIRozl9dINg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
 
-"@remirror/messages@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/messages/-/messages-2.0.0-beta.1.tgz#30a0ef5fbf448f048ee9bb6167b9006c0385850e"
-  integrity sha512-SUq0XwPCC6qzDeQ33cGQHE3OtrRIdgWWc0H18eqGjv71CpdFn63f2C1okgM9aq3pEQd41+phf2TUVeXngDBvyg==
+"@remirror/messages@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/messages/-/messages-2.0.0-beta.4.tgz#936d80417e87a407a946513cae78dbc0c99ac35e"
+  integrity sha512-a3+HsNb4mOdorwi6wMsnCXJ8unTglJAG+nQlzrP1XvQXBEIdUJcyxaRCpjIqaDCLtfaCPL1Dc4fLklAmVlPtsA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@lingui/core" "^3.13.3"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
+    "@lingui/core" "^3.14.0"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
 
-"@remirror/pm@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/pm/-/pm-2.0.0-beta.1.tgz#41185d54b8d49961e59152a25ef72644ee931fd1"
-  integrity sha512-G4jkvJPo5gtrzJydqskbPTUdJI5mmCjaOXO2UulyHHlOThNN3feNV8UwZtNOyFBqja5MjFqJA12JTa8wy28Q/w==
+"@remirror/pm@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/pm/-/pm-2.0.0-beta.4.tgz#1d35766643bca3e50e8c12c604609e6163edc110"
+  integrity sha512-g9wRkEaFUQ0/UZu7+VSvOOX0k+trI5FO1xcyniPmB2ilo2Jre7QUtjPaLgZLiV9KXM0tVPNDgGkt2to0stcobg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
     prosemirror-collab "^1.3.0"
     prosemirror-commands "^1.3.0"
     prosemirror-dropcursor "^1.5.0"
@@ -2314,221 +2314,221 @@
     prosemirror-history "^1.3.0"
     prosemirror-inputrules "^1.2.0"
     prosemirror-keymap "^1.2.0"
-    prosemirror-model "^1.18.0"
-    prosemirror-paste-rules "^2.0.0-beta.1"
+    prosemirror-model "^1.18.1"
+    prosemirror-paste-rules "^2.0.0-beta.4"
     prosemirror-schema-list "^1.2.0"
-    prosemirror-state "^1.4.0"
-    prosemirror-suggest "^2.0.0-beta.1"
+    prosemirror-state "^1.4.1"
+    prosemirror-suggest "^2.0.0-beta.4"
     prosemirror-tables "^1.1.1"
-    prosemirror-trailing-node "^2.0.0-beta.1"
+    prosemirror-trailing-node "^2.0.0-beta.4"
     prosemirror-transform "^1.6.0"
-    prosemirror-view "^1.26.0"
+    prosemirror-view "^1.26.2"
 
-"@remirror/preset-core@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/preset-core/-/preset-core-2.0.0-beta.1.tgz#d6b6de58d7491fb5ed9caebe906ed9d57aa72b14"
-  integrity sha512-e6PrJdZ43ZZTEBYqfWb4mnIWv4bt7+wtkd6EGHm2L74ThncEwI2igFkuuBwAiYbXgVIcZkY5Q0ZEYywFX//FOQ==
+"@remirror/preset-core@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/preset-core/-/preset-core-2.0.0-beta.4.tgz#bda391ae4027e0082e0cb6071ce1f57f1cecb2cc"
+  integrity sha512-kF5zaRnkW/XxyIDbZyOKRkRtN7p1o+aKnWNVgjCamUGzT+dcmBiUzI5xlAjQJPkD79ybE82/oQD/7RHNrJ1g7g==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-doc" "^2.0.0-beta.1"
-    "@remirror/extension-events" "^2.0.0-beta.1"
-    "@remirror/extension-gap-cursor" "^2.0.0-beta.1"
-    "@remirror/extension-history" "^2.0.0-beta.1"
-    "@remirror/extension-paragraph" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
-    "@remirror/extension-text" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-doc" "^2.0.0-beta.4"
+    "@remirror/extension-events" "^2.0.0-beta.4"
+    "@remirror/extension-gap-cursor" "^2.0.0-beta.4"
+    "@remirror/extension-history" "^2.0.0-beta.4"
+    "@remirror/extension-paragraph" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
+    "@remirror/extension-text" "^2.0.0-beta.4"
 
-"@remirror/preset-formatting@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/preset-formatting/-/preset-formatting-2.0.0-beta.1.tgz#2b7f37f3c53230a3a6137c88f47a11568a4a185b"
-  integrity sha512-jm/OWOnQbTi/ioswOluevClxNQKAPPR//Nq0C1sE9+3kQAy+5yr9289+mSnozL7hVTANqxN62nRm2N4g17LPaw==
+"@remirror/preset-formatting@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/preset-formatting/-/preset-formatting-2.0.0-beta.4.tgz#f3927a31adc25f457bc457ac9d66626b9412f8f9"
+  integrity sha512-/RF1jO1VaU4C94TYXC/zjdU3T6edtBa2qf4+oZzpimi2kVKbAf5f1SwNFu31WT2MH9TdlinhY9O6a2TwXpqRzw==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-bold" "^2.0.0-beta.1"
-    "@remirror/extension-columns" "^2.0.0-beta.1"
-    "@remirror/extension-font-size" "^2.0.0-beta.1"
-    "@remirror/extension-heading" "^2.0.0-beta.1"
-    "@remirror/extension-italic" "^2.0.0-beta.1"
-    "@remirror/extension-node-formatting" "^2.0.0-beta.1"
-    "@remirror/extension-strike" "^2.0.0-beta.1"
-    "@remirror/extension-sub" "^2.0.0-beta.1"
-    "@remirror/extension-sup" "^2.0.0-beta.1"
-    "@remirror/extension-text-case" "^2.0.0-beta.1"
-    "@remirror/extension-text-color" "^2.0.0-beta.1"
-    "@remirror/extension-text-highlight" "^2.0.0-beta.1"
-    "@remirror/extension-underline" "^2.0.0-beta.1"
-    "@remirror/extension-whitespace" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-bold" "^2.0.0-beta.4"
+    "@remirror/extension-columns" "^2.0.0-beta.4"
+    "@remirror/extension-font-size" "^2.0.0-beta.4"
+    "@remirror/extension-heading" "^2.0.0-beta.4"
+    "@remirror/extension-italic" "^2.0.0-beta.4"
+    "@remirror/extension-node-formatting" "^2.0.0-beta.4"
+    "@remirror/extension-strike" "^2.0.0-beta.4"
+    "@remirror/extension-sub" "^2.0.0-beta.4"
+    "@remirror/extension-sup" "^2.0.0-beta.4"
+    "@remirror/extension-text-case" "^2.0.0-beta.4"
+    "@remirror/extension-text-color" "^2.0.0-beta.4"
+    "@remirror/extension-text-highlight" "^2.0.0-beta.4"
+    "@remirror/extension-underline" "^2.0.0-beta.4"
+    "@remirror/extension-whitespace" "^2.0.0-beta.4"
 
-"@remirror/preset-react@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/preset-react/-/preset-react-2.0.0-beta.1.tgz#c68caebba90f913cfa000f51da43569a01f381c4"
-  integrity sha512-vsON7R5ZFg+2Mk4ZX5NQJpT/3rFrtpTweIRmVxd5GPFoF12bi7Zea3YVA2np5NhJ33fqVMqXymNXY2Fclph8nw==
+"@remirror/preset-react@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/preset-react/-/preset-react-2.0.0-beta.4.tgz#1fb26746b6a264dba5ca1b913cf80a34bdbbdd3e"
+  integrity sha512-ptaPPy6UJXKzDxRhMXE8ehA/olnAVgSHka7VwtLwBnZ4H7nfJxCbNRBu0XeufRMDAs9S0wKBHzxPr9sWIn+OlA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-placeholder" "^2.0.0-beta.1"
-    "@remirror/extension-react-component" "^2.0.0-beta.1"
-    "@remirror/react-utils" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-placeholder" "^2.0.0-beta.4"
+    "@remirror/extension-react-component" "^2.0.0-beta.4"
+    "@remirror/react-utils" "^2.0.0-beta.4"
 
-"@remirror/preset-wysiwyg@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/preset-wysiwyg/-/preset-wysiwyg-2.0.0-beta.1.tgz#94cc92265331e666389bd31a3f5b7a2de4432f3c"
-  integrity sha512-7j4OR1m2M7HBRNoQUt/gDf7qcqbLhTJUOIFBhbCGU2lXQgxO2tbh9LYb2Cr9SPfXUliEf4DmD4CjX4cqQ/GeZA==
+"@remirror/preset-wysiwyg@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/preset-wysiwyg/-/preset-wysiwyg-2.0.0-beta.4.tgz#e9561d4f134e29d68db0227407403292981c54eb"
+  integrity sha512-YqxbmOXSEbeHDwDGJcJK/YKYZ9N5miIB3AE7waA7mlB5++2YkMElvIo8IkLdkWg4oQuRd2WWxPf0WhFb5JzoYg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-bidi" "^2.0.0-beta.1"
-    "@remirror/extension-blockquote" "^2.0.0-beta.1"
-    "@remirror/extension-bold" "^2.0.0-beta.1"
-    "@remirror/extension-code" "^2.0.0-beta.1"
-    "@remirror/extension-code-block" "^2.0.0-beta.1"
-    "@remirror/extension-drop-cursor" "^2.0.0-beta.1"
-    "@remirror/extension-embed" "^2.0.0-beta.1"
-    "@remirror/extension-gap-cursor" "^2.0.0-beta.1"
-    "@remirror/extension-hard-break" "^2.0.0-beta.1"
-    "@remirror/extension-heading" "^2.0.0-beta.1"
-    "@remirror/extension-horizontal-rule" "^2.0.0-beta.1"
-    "@remirror/extension-image" "^2.0.0-beta.1"
-    "@remirror/extension-italic" "^2.0.0-beta.1"
-    "@remirror/extension-link" "^2.0.0-beta.1"
-    "@remirror/extension-list" "^2.0.0-beta.1"
-    "@remirror/extension-search" "^2.0.0-beta.1"
-    "@remirror/extension-shortcuts" "^2.0.0-beta.1"
-    "@remirror/extension-strike" "^2.0.0-beta.1"
-    "@remirror/extension-trailing-node" "^2.0.0-beta.1"
-    "@remirror/extension-underline" "^2.0.0-beta.1"
-    "@remirror/preset-core" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-bidi" "^2.0.0-beta.4"
+    "@remirror/extension-blockquote" "^2.0.0-beta.4"
+    "@remirror/extension-bold" "^2.0.0-beta.4"
+    "@remirror/extension-code" "^2.0.0-beta.4"
+    "@remirror/extension-code-block" "^2.0.0-beta.4"
+    "@remirror/extension-drop-cursor" "^2.0.0-beta.4"
+    "@remirror/extension-embed" "^2.0.0-beta.4"
+    "@remirror/extension-gap-cursor" "^2.0.0-beta.4"
+    "@remirror/extension-hard-break" "^2.0.0-beta.4"
+    "@remirror/extension-heading" "^2.0.0-beta.4"
+    "@remirror/extension-horizontal-rule" "^2.0.0-beta.4"
+    "@remirror/extension-image" "^2.0.0-beta.4"
+    "@remirror/extension-italic" "^2.0.0-beta.4"
+    "@remirror/extension-link" "^2.0.0-beta.4"
+    "@remirror/extension-list" "^2.0.0-beta.4"
+    "@remirror/extension-search" "^2.0.0-beta.4"
+    "@remirror/extension-shortcuts" "^2.0.0-beta.4"
+    "@remirror/extension-strike" "^2.0.0-beta.4"
+    "@remirror/extension-trailing-node" "^2.0.0-beta.4"
+    "@remirror/extension-underline" "^2.0.0-beta.4"
+    "@remirror/preset-core" "^2.0.0-beta.4"
 
-"@remirror/react-components@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/react-components/-/react-components-2.0.0-beta.1.tgz#7c8df24f89b81436d5c51387ee54de7c1774018b"
-  integrity sha512-qYlQii2Tl9+1vF1RykpMmGIHsIjOFguK31TXp3tbLGsrhkg06CoTx9g+5PwaK8salaxpN6qBkchtTKoidDkAQw==
+"@remirror/react-components@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/react-components/-/react-components-2.0.0-beta.4.tgz#f83f2264c1f240949b6d5a4962b9e242223081ca"
+  integrity sha512-fVBYhzdKxnqRctmszlThrXuxZdYRlbGLPp7aSUrWY3tBmtr/3jrYC8JjB0XIZd6Nz9ULqLWrDHhetL1i4J9Zig==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@lingui/core" "^3.13.3"
+    "@lingui/core" "^3.14.0"
     "@popperjs/core" "^2.9.2"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
-    "@remirror/extension-text-color" "^2.0.0-beta.1"
-    "@remirror/i18n" "^2.0.0-beta.1"
-    "@remirror/icons" "^2.0.0-beta.1"
-    "@remirror/messages" "^2.0.0-beta.1"
-    "@remirror/react-core" "^2.0.0-beta.1"
-    "@remirror/react-hooks" "^2.0.0-beta.1"
-    "@remirror/react-utils" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
+    "@remirror/extension-text-color" "^2.0.0-beta.4"
+    "@remirror/i18n" "^2.0.0-beta.4"
+    "@remirror/icons" "^2.0.0-beta.4"
+    "@remirror/messages" "^2.0.0-beta.4"
+    "@remirror/react-core" "^2.0.0-beta.4"
+    "@remirror/react-hooks" "^2.0.0-beta.4"
+    "@remirror/react-utils" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
     "@seznam/compose-react-refs" "^1.0.6"
     "@types/react-color" "^3.0.6"
-    create-context-state "^2.0.0-beta.0"
+    create-context-state "^2.0.0-beta.3"
     match-sorter "^6.3.0"
-    multishift "^2.0.0-beta.1"
+    multishift "^2.0.0-beta.4"
     react-color "^2.19.3"
     react-popper "^2.2.5"
     reakit "^1.3.11"
     reakit-system-palette "^0.14.2"
     reakit-utils "^0.15.2"
 
-"@remirror/react-core@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/react-core/-/react-core-2.0.0-beta.1.tgz#6c63dc2f941bf778f8df87049c3dd9255fe6a48f"
-  integrity sha512-4EZlF3hMko5UH0wxfne/yf3ezK1ZMxrIgm+CK2gVsjxaAlObsm9cjBxDWSaD3XR7CVo2fL3CExlY+Pn0qY7omw==
+"@remirror/react-core@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/react-core/-/react-core-2.0.0-beta.4.tgz#f7c8cfeba79c1ad6695f3a55262b1324faeff954"
+  integrity sha512-ev/wW2KFhdSyKU7v4SudWwTRA6S116RKyj7Gl6OL39eQBGmXgZR+jbE5UxlmdNDGWW+V/KQ+3iUq1KRU97w4ZA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
-    "@remirror/extension-react-component" "^2.0.0-beta.1"
-    "@remirror/i18n" "^2.0.0-beta.1"
-    "@remirror/preset-core" "^2.0.0-beta.1"
-    "@remirror/preset-react" "^2.0.0-beta.1"
-    "@remirror/react-renderer" "^2.0.0-beta.1"
-    "@remirror/react-utils" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
+    "@remirror/extension-react-component" "^2.0.0-beta.4"
+    "@remirror/i18n" "^2.0.0-beta.4"
+    "@remirror/preset-core" "^2.0.0-beta.4"
+    "@remirror/preset-react" "^2.0.0-beta.4"
+    "@remirror/react-renderer" "^2.0.0-beta.4"
+    "@remirror/react-utils" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
     "@seznam/compose-react-refs" "^1.0.6"
-    create-context-state "^2.0.0-beta.0"
+    create-context-state "^2.0.0-beta.3"
     fast-deep-equal "^3.1.3"
     resize-observer-polyfill "^1.5.1"
     tiny-warning "^1.0.3"
 
-"@remirror/react-hooks@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/react-hooks/-/react-hooks-2.0.0-beta.1.tgz#c106d169d5f78c0e5e692c98cb610bd48abb85d3"
-  integrity sha512-KINnQjkOm2G4Mq0K9ScqI0XskW1B1dmeUNps9vNRh0M/xUYWnwZL9Wycq+1xqcK0CFDjjVJZdIXEF9sxi8DrLQ==
+"@remirror/react-hooks@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/react-hooks/-/react-hooks-2.0.0-beta.4.tgz#a542c08311df7c79fb056695e14a01ac065c710c"
+  integrity sha512-94sd2ruOk5ypvcyhzREfQnyROro0KXMMlriCEuEx5OYFE+2/nUlMgD1BWAqC3epG/drfi5tgjKrHN5KtYX14mg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/extension-emoji" "^2.0.0-beta.1"
-    "@remirror/extension-events" "^2.0.0-beta.1"
-    "@remirror/extension-history" "^2.0.0-beta.1"
-    "@remirror/extension-mention" "^2.0.0-beta.1"
-    "@remirror/extension-mention-atom" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
-    "@remirror/i18n" "^2.0.0-beta.1"
-    "@remirror/react-core" "^2.0.0-beta.1"
-    "@remirror/react-utils" "^2.0.0-beta.1"
-    multishift "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/extension-emoji" "^2.0.0-beta.4"
+    "@remirror/extension-events" "^2.0.0-beta.4"
+    "@remirror/extension-history" "^2.0.0-beta.4"
+    "@remirror/extension-mention" "^2.0.0-beta.4"
+    "@remirror/extension-mention-atom" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
+    "@remirror/i18n" "^2.0.0-beta.4"
+    "@remirror/react-core" "^2.0.0-beta.4"
+    "@remirror/react-utils" "^2.0.0-beta.4"
+    multishift "^2.0.0-beta.4"
     use-isomorphic-layout-effect "^1.1.1"
     use-previous "^1.1.0"
 
-"@remirror/react-renderer@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/react-renderer/-/react-renderer-2.0.0-beta.1.tgz#e8044309b639c3df4591e8877449c236cb3e980c"
-  integrity sha512-/0IQGMG1OulpKHVFlxN36v0BiFvbc8bAa/YcTY2Fm+2JJfs1zw6a0qQq5uq0NfVcdq68oJsr7R24VN+iEJBuaQ==
+"@remirror/react-renderer@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/react-renderer/-/react-renderer-2.0.0-beta.4.tgz#741361ae8a024720c56bba7e1973cbfce54c88a8"
+  integrity sha512-Y9nn74UhzjIcwaQPObju/9y6QzL+vr0BbDLBqJ2ngoWS4znYuzBuOAeE5L5cgcBdPzO0zyKSjVEo95jMZEjaVQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
 
-"@remirror/react-utils@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/react-utils/-/react-utils-2.0.0-beta.1.tgz#66d26f38aff4f7307c0ccfbbfc8bd3b8305f8060"
-  integrity sha512-RBla7Kphi2U/PQZ5Rz6p9IYsOOJCz2KcuJitIIGr8P1B9+/8MelfnqmDVnqg+j4ugzPlRRK7Q1Uu/rl6Vyi9oA==
+"@remirror/react-utils@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/react-utils/-/react-utils-2.0.0-beta.4.tgz#547adc7e51498e17f32ca447e1d847360cb3cf26"
+  integrity sha512-WhV4MyzTqRM38l1Y77MrySZY4YcxW33EZQL4atXsM2iys11LvJim/lrz4fdC8io9eh6Cj/okR9eZTpVU8lWmXA==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
-    "@remirror/core-types" "^2.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
+    "@remirror/core-types" "^2.0.0-beta.4"
 
-"@remirror/react@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/react/-/react-2.0.0-beta.1.tgz#7d5e6425b99cb762deaf30f04004ab3a20151e28"
-  integrity sha512-twKS5aTZA1vqroDG98BL+7QjufSiH/2OYqldlVISnp1hcBhrAaZar0qVntSBmG7wWsZ6ZWYbMaCO++USapJjmQ==
+"@remirror/react@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/react/-/react-2.0.0-beta.4.tgz#bdd1d6b307d6f0a59a82610f5b76a8324f3cab79"
+  integrity sha512-MOWKFlMLLg4GWSK7gF6tvdsgY1npbQEUQTZK6Fi5DK0xau1rgo8ZCYd4H1WxcvDkUIzBF4nfhOq+cnvV1M61gg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/extension-placeholder" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
-    "@remirror/extension-react-component" "^2.0.0-beta.1"
-    "@remirror/extension-react-tables" "^2.0.0-beta.1"
-    "@remirror/preset-react" "^2.0.0-beta.1"
-    "@remirror/react-components" "^2.0.0-beta.1"
-    "@remirror/react-core" "^2.0.0-beta.1"
-    "@remirror/react-hooks" "^2.0.0-beta.1"
-    "@remirror/react-renderer" "^2.0.0-beta.1"
-    "@remirror/react-utils" "^2.0.0-beta.1"
+    "@remirror/extension-placeholder" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
+    "@remirror/extension-react-component" "^2.0.0-beta.4"
+    "@remirror/extension-react-tables" "^2.0.0-beta.4"
+    "@remirror/preset-react" "^2.0.0-beta.4"
+    "@remirror/react-components" "^2.0.0-beta.4"
+    "@remirror/react-core" "^2.0.0-beta.4"
+    "@remirror/react-hooks" "^2.0.0-beta.4"
+    "@remirror/react-renderer" "^2.0.0-beta.4"
+    "@remirror/react-utils" "^2.0.0-beta.4"
 
-"@remirror/styles@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/styles/-/styles-2.0.0-beta.1.tgz#863934d4ae92cb35652ee0f2c9f0ef8c36be4743"
-  integrity sha512-8U2EPhVFlInXMczRivdD3mGEUSRg9KkIOpfQg3L08V43cNPRBAH/kiMpJmdEAGQ7DCQQ+Qasm7useCoCcoPzcg==
+"@remirror/styles@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/styles/-/styles-2.0.0-beta.4.tgz#848f8b11129a9dce6cf308bc24302e4f4f5d9ae3"
+  integrity sha512-H8ZB3dCtp63LDJlcs6yMk9oBH7wlOXB2bUxDoYcQBGZ2K6COdwCCgbBFPDhP+wAY1iDGgLf+LzBdwTbsTQgSng==
   dependencies:
     "@babel/runtime" "^7.13.10"
     default-import "^1.1.1"
 
-"@remirror/theme@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/theme/-/theme-2.0.0-beta.1.tgz#d8fafde1fafeefa09d44aaaf573fe919cad7bf99"
-  integrity sha512-QG064NiaN5sUXu4wtnJzK5aL+a7cwpdZ+3zOUIBDWLGUOdcphnsdXIuVXCsGgWIe+q9fI/dn0iJmFo0GSKuziw==
+"@remirror/theme@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/theme/-/theme-2.0.0-beta.4.tgz#ea9fcdcbdb19ca731dc305a5cdb00182c9e7e0a9"
+  integrity sha512-6Tk6Jq55Hpy6wjHZPnTccKFqr8ynOE+MqezejYP7sWW1vERsunWb5A1inLmH6gi81tLKR0s6WSlaWqEdYiW9OA==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@linaria/core" "3.0.0-beta.13"
-    "@remirror/core-types" "^2.0.0-beta.1"
+    "@remirror/core-types" "^2.0.0-beta.4"
     color2k "^1.2.4"
     csstype "^3.0.7"
 
-"@remirror/types@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@remirror/types/-/types-1.0.0-beta.1.tgz#c34ddd705e4bb382d753d81dca1314be5b461dce"
-  integrity sha512-bY59f8rp0a1jRD+9A21mExY6W2sPr9tMxBdYpckTLh0ZTSefqpF6J+WIR7dV7kxmlxkHezttmN08318207zPyQ==
+"@remirror/types@^1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@remirror/types/-/types-1.0.0-beta.4.tgz#c5a7a8b68d72b388c4a3b7ad90911215805553f8"
+  integrity sha512-pGFCleyMIN3bvmYGAy0UZPQPZysGnvaXgsBXYDC8CEsXZ37xmF4y/8NhaudZQYXGsbFP/bUiDKiFVA5ruNSRVQ==
   dependencies:
     type-fest "^1.2.2"
 
@@ -3459,10 +3459,10 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-a11y-status@^2.0.0-beta.0:
-  version "2.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/a11y-status/-/a11y-status-2.0.0-beta.0.tgz#6da506803b388dcc43957b84c249f935bf3003cb"
-  integrity sha512-Wc4iZ0yPBKp33NGt8KImY1ULlTs3rYwLzHZHsqUDvR4KKvyWa5oukdyYGLGC4WltdbYqqANgLjK6+LAtLgTsVA==
+a11y-status@^2.0.0-beta.3:
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/a11y-status/-/a11y-status-2.0.0-beta.3.tgz#8576bae172952e1aa3e282dda7946b7c9580e02d"
+  integrity sha512-vXZibQc88AIH5blbsrRf9Mud4DIyiV41Hnm76s7kyxtvH3rB6oXZaUPOJ0VdpYLyrH79HxkrpF+uJSAyih0S7g==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@types/throttle-debounce" "^2.1.0"
@@ -4469,10 +4469,10 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-create-context-state@^2.0.0-beta.0:
-  version "2.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/create-context-state/-/create-context-state-2.0.0-beta.0.tgz#7e33ff01de7607555dc5ef301a51b7193ec2bb56"
-  integrity sha512-t7pMqEpJvkvvBUiCCQc5mLHV72r9NdtJA4n29tQPlFlwxnQVbdQU0D9fRDb1JUUfa9lc9Qa3kvFMAM3TSz7ePg==
+create-context-state@^2.0.0-beta.3:
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/create-context-state/-/create-context-state-2.0.0-beta.3.tgz#53a60ae21e65aa29e9ccf612d1d6d162b18f545e"
+  integrity sha512-IYRpAHbQCr2V9bygjw/qVpy+P9RD1k/XMPsx0ocA09fMuj+G9gA1/4mET6m0efg07L2wPLFTcfvS21g0UJ4wyA==
   dependencies:
     "@babel/runtime" "^7.13.10"
 
@@ -7601,17 +7601,17 @@ multicast-dns@^7.2.5:
     dns-packet "^5.2.2"
     thunky "^1.0.2"
 
-multishift@^2.0.0-beta.1:
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/multishift/-/multishift-2.0.0-beta.1.tgz#3bb5e22a62b195b7f53a44698a8f368c6be59b47"
-  integrity sha512-1BassbDiPe/R+jxvGD2+F+TAUvXPuFJW1P/e+QMeo1CfAdfgzDCoEHFw6NgET7U1zOb/kStHKPGTICJTxbqJhA==
+multishift@^2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/multishift/-/multishift-2.0.0-beta.4.tgz#0ee01011ff4711f05e3effa8e657a6c5b4e5b1d0"
+  integrity sha512-6l+Y4pOd3nQ7HXrYObKuV2HOSaiIIjr0l/muhY0HrNufeqYFozzbEC/APl67xTmQsGD06sovOpmqFBifYzdAQg==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@reach/auto-id" "^0.16.0"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
-    "@remirror/core-types" "^2.0.0-beta.1"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
+    "@remirror/core-types" "^2.0.0-beta.4"
     "@seznam/compose-react-refs" "^1.0.6"
-    a11y-status "^2.0.0-beta.0"
+    a11y-status "^2.0.0-beta.3"
     compute-scroll-into-view "^1.0.17"
     react-use "^17.3.2"
     tiny-warning "^1.0.3"
@@ -8793,33 +8793,33 @@ prosemirror-keymap@^1.0.0, prosemirror-keymap@^1.1.2, prosemirror-keymap@^1.2.0:
     prosemirror-state "^1.0.0"
     w3c-keyname "^2.2.0"
 
-prosemirror-model@^1.0.0, prosemirror-model@^1.16.0, prosemirror-model@^1.18.0, prosemirror-model@^1.8.1:
+prosemirror-model@^1.0.0, prosemirror-model@^1.16.0, prosemirror-model@^1.18.1, prosemirror-model@^1.8.1:
   version "1.18.1"
   resolved "https://registry.yarnpkg.com/prosemirror-model/-/prosemirror-model-1.18.1.tgz#1d5d6b6de7b983ee67a479dc607165fdef3935bd"
   integrity sha512-IxSVBKAEMjD7s3n8cgtwMlxAXZrC7Mlag7zYsAKDndAqnDScvSmp/UdnRTV/B33lTCVU3CCm7dyAn/rVVD0mcw==
   dependencies:
     orderedmap "^2.0.0"
 
-prosemirror-paste-rules@^2.0.0-beta.1:
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/prosemirror-paste-rules/-/prosemirror-paste-rules-2.0.0-beta.1.tgz#0f4595e06be620579ed28f1fa55b7f55dab7669c"
-  integrity sha512-Bdr2T6rgOt2lNzjcpbVu7hiNnIfy14HJWV3NsB+e7HhZXyHx8ZbgjxeqBZr8usOXqHF/2b63BgE3jn/vtb0LXg==
+prosemirror-paste-rules@^2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/prosemirror-paste-rules/-/prosemirror-paste-rules-2.0.0-beta.4.tgz#a64d422d67774fca33f6897fbf1f84fbecc11305"
+  integrity sha512-iH2U6bOD3ZYbMqMi1UACQdsckAPMVX41fW4oc/5qn7MX0jjxEWxbouUgIuu0SIzni94BXvhm9ukH3n8tFb5tLg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
     escape-string-regexp "^4.0.0"
 
-prosemirror-resizable-view@^2.0.0-beta.1:
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/prosemirror-resizable-view/-/prosemirror-resizable-view-2.0.0-beta.1.tgz#927d689cb402ddc355f892842453ddde858a07c2"
-  integrity sha512-YIng0pXFLrBJZk/sDOkvlZVri/spJ85lwuaag27aVc/tFso06BOGuYpvacSr4mXQbLiE7FoolsUD/cX+SyyUmQ==
+prosemirror-resizable-view@^2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/prosemirror-resizable-view/-/prosemirror-resizable-view-2.0.0-beta.4.tgz#479f1424f48285e43d931b5f46f670e9543e6ca7"
+  integrity sha512-IZl9txIuaxuB4jpStaFZAru7/9lMkNKdd3dH3qkMWaltMd+/4RF0AApFQl/oQgezKReX56MwJ1IfDpQ/vgL8QQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
-    "@remirror/core-utils" "^2.0.0-beta.1"
-    prosemirror-model "^1.18.0"
-    prosemirror-view "^1.26.0"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
+    "@remirror/core-utils" "^2.0.0-beta.4"
+    prosemirror-model "^1.18.1"
+    prosemirror-view "^1.26.2"
 
 prosemirror-schema-list@^1.2.0:
   version "1.2.0"
@@ -8830,23 +8830,23 @@ prosemirror-schema-list@^1.2.0:
     prosemirror-state "^1.0.0"
     prosemirror-transform "^1.0.0"
 
-prosemirror-state@^1.0.0, prosemirror-state@^1.2.2, prosemirror-state@^1.3.1, prosemirror-state@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/prosemirror-state/-/prosemirror-state-1.4.0.tgz#0b0c23b38d9f5bb23d19ad043cf8453d876c0414"
-  integrity sha512-mVDZdjNX/YT5FvypiwbphJe9psA5h+j9apsSszVRFc6oKFoIInvzdujh8QW9f9lwHtSYajLxNiM1hPhd0Sl1XA==
+prosemirror-state@^1.0.0, prosemirror-state@^1.2.2, prosemirror-state@^1.3.1, prosemirror-state@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/prosemirror-state/-/prosemirror-state-1.4.1.tgz#f6e26c7b6a7e11206176689eb6ebbf91870953e1"
+  integrity sha512-U/LBDW2gNmVa07sz/D229XigSdDQ5CLFwVB1Vb32MJbAHHhWe/6pOc721faI17tqw4pZ49i1xfY/jEZ9tbIhPg==
   dependencies:
     prosemirror-model "^1.0.0"
     prosemirror-transform "^1.0.0"
 
-prosemirror-suggest@^2.0.0-beta.1:
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/prosemirror-suggest/-/prosemirror-suggest-2.0.0-beta.1.tgz#0bbf495939008addc63d824cfcba3d78d3031ac2"
-  integrity sha512-U9V/9AakrjoaaVw0Idg86Mb06XQJgfigqed8mEcLR4lC4kXuUEEc3Rw4rnp05/CZ/Gx1Dq8icfd1T3gRNcKIEQ==
+prosemirror-suggest@^2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/prosemirror-suggest/-/prosemirror-suggest-2.0.0-beta.4.tgz#bad88c6291ba68f965d0bd24128485baae033420"
+  integrity sha512-8zLBMCESJcG9CM8L0tpzfuJPJGRX7wMbi2CUlPzya9doTMmybQ7wGhM49224TI04Rn1m+KOcZe4e49Nj5KMhWg==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
-    "@remirror/types" "^1.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
+    "@remirror/types" "^1.0.0-beta.4"
     escape-string-regexp "^4.0.0"
 
 prosemirror-tables@^1.1.1:
@@ -8860,14 +8860,14 @@ prosemirror-tables@^1.1.1:
     prosemirror-transform "^1.2.1"
     prosemirror-view "^1.13.3"
 
-prosemirror-trailing-node@^2.0.0-beta.1:
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/prosemirror-trailing-node/-/prosemirror-trailing-node-2.0.0-beta.1.tgz#53f998337d5863f2237882d2f6de84bcfe01e5fc"
-  integrity sha512-wdcXiU1fC/l3DY8QtaI5rxRe+7TFj2qfjWHrUEkCYJPQMUBBz67fBCxVVE7qR1hEq/i51UYo4qd5diQ/hMMxgw==
+prosemirror-trailing-node@^2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/prosemirror-trailing-node/-/prosemirror-trailing-node-2.0.0-beta.4.tgz#241ff6a202b0434daef661b0bd3cd29163291d2f"
+  integrity sha512-qnMEL0no6m4yJoNmeOaKOzpLUHfDG6pgkYHxizAZC4YInYmUTp0/lXLUsNZg1frJlyEivteYq3LPliqpkT09eQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
     escape-string-regexp "^4.0.0"
 
 prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transform@^1.2.1, prosemirror-transform@^1.6.0:
@@ -8877,10 +8877,10 @@ prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transfor
   dependencies:
     prosemirror-model "^1.0.0"
 
-prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, prosemirror-view@^1.26.0:
-  version "1.26.1"
-  resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.26.1.tgz#fcb6f6e6ca8712714bf7b84bfcdd49fb4617f48b"
-  integrity sha512-8MEuEFQ64zoIRSz24A97WhtSqtZynTwTsECt0kOh0TotNx/YRPKWozEmUJUmJGUYsFowZNdsI0gm1bvX1x3/9Q==
+prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, prosemirror-view@^1.26.2:
+  version "1.26.3"
+  resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.26.3.tgz#c286e4051f97c6e8546e578ef922917012b2c27e"
+  integrity sha512-349cR05mXW67xhzmrP1ddEyOCyEuOCkLeo17Bwgw8dWWdGYwT6oTAGJuk/hdc3OSTIUpUPjHLvE4mjP45IIkTg==
   dependencies:
     prosemirror-model "^1.16.0"
     prosemirror-state "^1.0.0"
@@ -9325,73 +9325,73 @@ relateurl@^0.2.7:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha512-G08Dxvm4iDN3MLM0EsP62EDV9IuhXPR6blNz6Utcp7zyV3tr4HVNINt6MpaRWbxoOHT3Q7YN2P+jaHX8vUbgog==
 
-remirror@^2.0.0-beta.1:
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/remirror/-/remirror-2.0.0-beta.1.tgz#3ccfe69547f29d3c09353f1f7cf157a0f67c0836"
-  integrity sha512-8GhQv4Y3dNVmPtOb8PiyRgfNlMu1hSa17GZaYYTjoloc+o1T48Ae0nMiEzPrGIjVz3EUYrmbA/HFIh2u3aGsFA==
+remirror@^2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/remirror/-/remirror-2.0.0-beta.4.tgz#33f7c7d79e379303ac68988dc9feef2cd5199c2c"
+  integrity sha512-aJ/aDEIH2bsLfmQoLc2nO8t0/Ma+EjmUzyOCrtbw+5PXGpwvGdPuEayKSL/HeKSYkSNMKHjbLz9LFSPmsAqnNQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@remirror/core" "^2.0.0-beta.1"
-    "@remirror/core-constants" "^2.0.0-beta.1"
-    "@remirror/core-helpers" "^2.0.0-beta.1"
-    "@remirror/core-types" "^2.0.0-beta.1"
-    "@remirror/core-utils" "^2.0.0-beta.1"
-    "@remirror/dom" "^2.0.0-beta.1"
-    "@remirror/extension-annotation" "^2.0.0-beta.1"
-    "@remirror/extension-bidi" "^2.0.0-beta.1"
-    "@remirror/extension-blockquote" "^2.0.0-beta.1"
-    "@remirror/extension-bold" "^2.0.0-beta.1"
-    "@remirror/extension-callout" "^2.0.0-beta.1"
-    "@remirror/extension-code" "^2.0.0-beta.1"
-    "@remirror/extension-code-block" "^2.0.0-beta.1"
-    "@remirror/extension-codemirror5" "^2.0.0-beta.1"
-    "@remirror/extension-collaboration" "^2.0.0-beta.1"
-    "@remirror/extension-columns" "^2.0.0-beta.1"
-    "@remirror/extension-diff" "^2.0.0-beta.1"
-    "@remirror/extension-doc" "^2.0.0-beta.1"
-    "@remirror/extension-drop-cursor" "^2.0.0-beta.1"
-    "@remirror/extension-embed" "^2.0.0-beta.1"
-    "@remirror/extension-emoji" "^2.0.0-beta.1"
-    "@remirror/extension-entity-reference" "^2.0.0-beta.1"
-    "@remirror/extension-epic-mode" "^2.0.0-beta.1"
-    "@remirror/extension-events" "^2.0.0-beta.1"
-    "@remirror/extension-font-family" "^2.0.0-beta.1"
-    "@remirror/extension-font-size" "^2.0.0-beta.1"
-    "@remirror/extension-gap-cursor" "^2.0.0-beta.1"
-    "@remirror/extension-hard-break" "^2.0.0-beta.1"
-    "@remirror/extension-heading" "^2.0.0-beta.1"
-    "@remirror/extension-history" "^2.0.0-beta.1"
-    "@remirror/extension-horizontal-rule" "^2.0.0-beta.1"
-    "@remirror/extension-image" "^2.0.0-beta.1"
-    "@remirror/extension-italic" "^2.0.0-beta.1"
-    "@remirror/extension-link" "^2.0.0-beta.1"
-    "@remirror/extension-list" "^2.0.0-beta.1"
-    "@remirror/extension-markdown" "^2.0.0-beta.1"
-    "@remirror/extension-mention" "^2.0.0-beta.1"
-    "@remirror/extension-mention-atom" "^2.0.0-beta.1"
-    "@remirror/extension-node-formatting" "^2.0.0-beta.1"
-    "@remirror/extension-paragraph" "^2.0.0-beta.1"
-    "@remirror/extension-placeholder" "^2.0.0-beta.1"
-    "@remirror/extension-positioner" "^2.0.0-beta.1"
-    "@remirror/extension-search" "^2.0.0-beta.1"
-    "@remirror/extension-shortcuts" "^2.0.0-beta.1"
-    "@remirror/extension-strike" "^2.0.0-beta.1"
-    "@remirror/extension-sub" "^2.0.0-beta.1"
-    "@remirror/extension-sup" "^2.0.0-beta.1"
-    "@remirror/extension-tables" "^2.0.0-beta.1"
-    "@remirror/extension-text" "^2.0.0-beta.1"
-    "@remirror/extension-text-case" "^2.0.0-beta.1"
-    "@remirror/extension-text-color" "^2.0.0-beta.1"
-    "@remirror/extension-text-highlight" "^2.0.0-beta.1"
-    "@remirror/extension-trailing-node" "^2.0.0-beta.1"
-    "@remirror/extension-underline" "^2.0.0-beta.1"
-    "@remirror/extension-whitespace" "^2.0.0-beta.1"
-    "@remirror/extension-yjs" "^3.0.0-beta.1"
-    "@remirror/icons" "^2.0.0-beta.1"
-    "@remirror/preset-core" "^2.0.0-beta.1"
-    "@remirror/preset-formatting" "^2.0.0-beta.1"
-    "@remirror/preset-wysiwyg" "^2.0.0-beta.1"
-    "@remirror/theme" "^2.0.0-beta.1"
+    "@remirror/core" "^2.0.0-beta.4"
+    "@remirror/core-constants" "^2.0.0-beta.4"
+    "@remirror/core-helpers" "^2.0.0-beta.4"
+    "@remirror/core-types" "^2.0.0-beta.4"
+    "@remirror/core-utils" "^2.0.0-beta.4"
+    "@remirror/dom" "^2.0.0-beta.4"
+    "@remirror/extension-annotation" "^2.0.0-beta.4"
+    "@remirror/extension-bidi" "^2.0.0-beta.4"
+    "@remirror/extension-blockquote" "^2.0.0-beta.4"
+    "@remirror/extension-bold" "^2.0.0-beta.4"
+    "@remirror/extension-callout" "^2.0.0-beta.4"
+    "@remirror/extension-code" "^2.0.0-beta.4"
+    "@remirror/extension-code-block" "^2.0.0-beta.4"
+    "@remirror/extension-codemirror5" "^2.0.0-beta.4"
+    "@remirror/extension-collaboration" "^2.0.0-beta.4"
+    "@remirror/extension-columns" "^2.0.0-beta.4"
+    "@remirror/extension-diff" "^2.0.0-beta.4"
+    "@remirror/extension-doc" "^2.0.0-beta.4"
+    "@remirror/extension-drop-cursor" "^2.0.0-beta.4"
+    "@remirror/extension-embed" "^2.0.0-beta.4"
+    "@remirror/extension-emoji" "^2.0.0-beta.4"
+    "@remirror/extension-entity-reference" "^2.0.0-beta.4"
+    "@remirror/extension-epic-mode" "^2.0.0-beta.4"
+    "@remirror/extension-events" "^2.0.0-beta.4"
+    "@remirror/extension-font-family" "^2.0.0-beta.4"
+    "@remirror/extension-font-size" "^2.0.0-beta.4"
+    "@remirror/extension-gap-cursor" "^2.0.0-beta.4"
+    "@remirror/extension-hard-break" "^2.0.0-beta.4"
+    "@remirror/extension-heading" "^2.0.0-beta.4"
+    "@remirror/extension-history" "^2.0.0-beta.4"
+    "@remirror/extension-horizontal-rule" "^2.0.0-beta.4"
+    "@remirror/extension-image" "^2.0.0-beta.4"
+    "@remirror/extension-italic" "^2.0.0-beta.4"
+    "@remirror/extension-link" "^2.0.0-beta.4"
+    "@remirror/extension-list" "^2.0.0-beta.4"
+    "@remirror/extension-markdown" "^2.0.0-beta.4"
+    "@remirror/extension-mention" "^2.0.0-beta.4"
+    "@remirror/extension-mention-atom" "^2.0.0-beta.4"
+    "@remirror/extension-node-formatting" "^2.0.0-beta.4"
+    "@remirror/extension-paragraph" "^2.0.0-beta.4"
+    "@remirror/extension-placeholder" "^2.0.0-beta.4"
+    "@remirror/extension-positioner" "^2.0.0-beta.4"
+    "@remirror/extension-search" "^2.0.0-beta.4"
+    "@remirror/extension-shortcuts" "^2.0.0-beta.4"
+    "@remirror/extension-strike" "^2.0.0-beta.4"
+    "@remirror/extension-sub" "^2.0.0-beta.4"
+    "@remirror/extension-sup" "^2.0.0-beta.4"
+    "@remirror/extension-tables" "^2.0.0-beta.4"
+    "@remirror/extension-text" "^2.0.0-beta.4"
+    "@remirror/extension-text-case" "^2.0.0-beta.4"
+    "@remirror/extension-text-color" "^2.0.0-beta.4"
+    "@remirror/extension-text-highlight" "^2.0.0-beta.4"
+    "@remirror/extension-trailing-node" "^2.0.0-beta.4"
+    "@remirror/extension-underline" "^2.0.0-beta.4"
+    "@remirror/extension-whitespace" "^2.0.0-beta.4"
+    "@remirror/extension-yjs" "^3.0.0-beta.4"
+    "@remirror/icons" "^2.0.0-beta.4"
+    "@remirror/preset-core" "^2.0.0-beta.4"
+    "@remirror/preset-formatting" "^2.0.0-beta.4"
+    "@remirror/preset-wysiwyg" "^2.0.0-beta.4"
+    "@remirror/theme" "^2.0.0-beta.4"
     "@types/codemirror" "^5.60.2"
     "@types/refractor" "^3.0.2"
     codemirror "^5.62.0"
