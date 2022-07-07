@@ -4,16 +4,12 @@
  */
 
 const config = {
-  // https://kulshekhar.github.io/ts-jest/docs/guides/esm-support/
-  preset: "ts-jest/presets/default-esm",
+  // https://swc.rs/docs/usage/jest
+  transform: {
+    "^.+\\.(t|j)sx?$": ["@swc/jest"],
+  },
 
   extensionsToTreatAsEsm: ['.ts', '.tsx'],
-
-  globals: {
-    "ts-jest": {
-      useESM: true,
-    },
-  },
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   setupFilesAfterEnv: ["jest-remirror/environment"],
