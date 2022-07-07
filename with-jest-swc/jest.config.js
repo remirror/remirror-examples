@@ -4,18 +4,17 @@
  */
 
 const config = {
+  // Required for jest-remirror custom jest matchers like `expect(...).toEqualRemirrorDocument(...)`
+  setupFilesAfterEnv: ["jest-remirror/environment"],
+
+  testEnvironment: "jsdom",
+
+  extensionsToTreatAsEsm: [".ts", ".tsx"],
+
   // https://swc.rs/docs/usage/jest
   transform: {
     "^.+\\.(t|j)sx?$": ["@swc/jest"],
   },
-
-  extensionsToTreatAsEsm: ['.ts', '.tsx'],
-
-  // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  setupFilesAfterEnv: ["jest-remirror/environment"],
-
-  // The test environment that will be used for testing
-  testEnvironment: "jsdom",
 };
 
 module.exports = config;
