@@ -16,3 +16,13 @@ This repository contains examples of Remirror with different frameworks. Clone t
 
 - [Open Example in StackBlitz](https://stackblitz.com/github/remirror/remirror-examples/tree/main/with-vite?terminal=dev)
 - [Open Example in CodeSandbox](https://githubbox.com/remirror/remirror-examples/tree/main/with-vite)
+
+## With [Jest](https://jestjs.io/) and [ts-jest](https://www.npmjs.com/package/ts-jest)
+
+- [Open Example in StackBlitz](https://stackblitz.com/github/remirror/remirror-examples/tree/main/with-jest-ts?terminal=test)
+- [Open Example in CodeSandbox](https://githubbox.com/remirror/remirror-examples/tree/main/with-jest-ts)
+
+## With [Jest](https://jestjs.io/) and [@swc/jest](https://www.npmjs.com/package/@swc/jest)
+
+- [Open Example in StackBlitz](https://stackblitz.com/github/remirror/remirror-examples/tree/main/with-jest-swc?terminal=test)
+- [Open Example in CodeSandbox](https://githubbox.com/remirror/remirror-examples/tree/main/with-jest-swc)
