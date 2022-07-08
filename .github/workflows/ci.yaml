@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: bash
         working-directory: with-create-react-app
     steps:
       - uses: actions/checkout@v3
@@ -17,3 +16,55 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: yarn test
+
+  with-jest-swc:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: with-jest-swc
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - run: yarn install
+      - run: yarn test
+
+  with-jest-ts:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: with-jest-ts
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - run: yarn install
+      - run: yarn test
+
+  with-nextjs:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: with-jest-nextjs
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - run: yarn install
+      - run: yarn build
+
+  with-vite:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: with-jest-vite
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - run: yarn install
+      - run: yarn build
