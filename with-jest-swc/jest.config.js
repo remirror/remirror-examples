@@ -5,7 +5,7 @@
 
 const config = {
   // Required for jest-remirror custom jest matchers like `expect(...).toEqualRemirrorDocument(...)`
-  setupFilesAfterEnv: ["jest-remirror/environment"],
+  setupFilesAfterEnv: ["./test/jest-setup.mjs"],
 
   testEnvironment: "jsdom",
 
