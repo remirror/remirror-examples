@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "config:base",
+        ":semanticCommitTypeAll(chore)"
+    ],
+    "packageRules": [
+        {
+            "groupName": "Remirror packages",
+            "rangeStrategy": "bump"
+        }
+    ],
+    "rangeStrategy": "replace",
+    "prConcurrentLimit": 2,
+    "dependencyDashboard": true
+}
