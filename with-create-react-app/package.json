@@ -8,6 +8,7 @@
     "@remirror/pm": "^2.0.0-beta.17",
     "@remirror/react": "^2.0.0-beta.17",
     "@remirror/styles": "^2.0.0-beta.17",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
