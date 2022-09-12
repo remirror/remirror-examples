@@ -1,6 +1,10 @@
 name: ci
 
-on: [push]
+on:
+  push:
+  schedule:
+    # At 10:25 on every Wednesday
+    - cron: "25 10 * * 3"
 
 jobs:
   with-create-react-app:
@@ -29,7 +33,7 @@ jobs:
     strategy:
       matrix:
         node-version: ["16", "18"]
-        package-manager: ["yarn", "npm"]        
+        package-manager: ["yarn", "npm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -46,7 +50,7 @@ jobs:
     strategy:
       matrix:
         node-version: ["16", "18"]
-        package-manager: ["yarn", "npm"]        
+        package-manager: ["yarn", "npm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -63,7 +67,7 @@ jobs:
     strategy:
       matrix:
         node-version: ["16", "18"]
-        package-manager: ["yarn", "npm"]        
+        package-manager: ["yarn", "npm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -80,7 +84,7 @@ jobs:
     strategy:
       matrix:
         node-version: ["16", "18"]
-        package-manager: ["yarn", "npm"]        
+        package-manager: ["yarn", "npm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
