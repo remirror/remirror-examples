@@ -8,63 +8,83 @@ jobs:
     defaults:
       run:
         working-directory: with-create-react-app
+    strategy:
+      matrix:
+        node-version: ["16", "18"]
+        package-manager: ["yarn", "npm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "16"
-      - run: yarn install
-      - run: yarn build
-      - run: yarn test
+          node-version: ${{ matrix.version }}
+      - run: ${{ matrix.package-manager }} install
+      - run: ${{ matrix.package-manager }} build
+      - run: ${{ matrix.package-manager }} test
 
   with-jest-swc:
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: with-jest-swc
+    strategy:
+      matrix:
+        node-version: ["16", "18"]
+        package-manager: ["yarn", "npm"]        
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "16"
-      - run: yarn install
-      - run: yarn test
+          node-version: ${{ matrix.version }}
+      - run: ${{ matrix.package-manager }} install
+      - run: ${{ matrix.package-manager }} test
 
   with-jest-ts:
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: with-jest-ts
+    strategy:
+      matrix:
+        node-version: ["16", "18"]
+        package-manager: ["yarn", "npm"]        
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "16"
-      - run: yarn install
-      - run: yarn test
+          node-version: ${{ matrix.version }}
+      - run: ${{ matrix.package-manager }} install
+      - run: ${{ matrix.package-manager }} test
 
   with-nextjs:
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: with-nextjs
+    strategy:
+      matrix:
+        node-version: ["16", "18"]
+        package-manager: ["yarn", "npm"]        
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "16"
-      - run: yarn install
-      - run: yarn build
+          node-version: ${{ matrix.version }}
+      - run: ${{ matrix.package-manager }} install
+      - run: ${{ matrix.package-manager }} build
 
   with-vite:
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: with-vite
+    strategy:
+      matrix:
+        node-version: ["16", "18"]
+        package-manager: ["yarn", "npm"]        
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "16"
-      - run: yarn install
-      - run: yarn build
+          node-version: ${{ matrix.version }}
+      - run: ${{ matrix.package-manager }} install
+      - run: ${{ matrix.package-manager }} build
