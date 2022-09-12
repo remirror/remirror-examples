@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: ${{ matrix.version }}
       - run: ${{ matrix.package-manager }} install
-      - run: ${{ matrix.package-manager }} build
-      - run: ${{ matrix.package-manager }} test
+      - run: ${{ matrix.package-manager }} run build
+      - run: ${{ matrix.package-manager }} run test
 
   with-jest-swc:
     runs-on: ubuntu-latest
@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: ${{ matrix.version }}
       - run: ${{ matrix.package-manager }} install
-      - run: ${{ matrix.package-manager }} test
+      - run: ${{ matrix.package-manager }} run test
 
   with-jest-ts:
     runs-on: ubuntu-latest
@@ -53,7 +53,7 @@ jobs:
         with:
           node-version: ${{ matrix.version }}
       - run: ${{ matrix.package-manager }} install
-      - run: ${{ matrix.package-manager }} test
+      - run: ${{ matrix.package-manager }} run test
 
   with-nextjs:
     runs-on: ubuntu-latest
@@ -70,7 +70,7 @@ jobs:
         with:
           node-version: ${{ matrix.version }}
       - run: ${{ matrix.package-manager }} install
-      - run: ${{ matrix.package-manager }} build
+      - run: ${{ matrix.package-manager }} run build
 
   with-vite:
     runs-on: ubuntu-latest
@@ -87,4 +87,4 @@ jobs:
         with:
           node-version: ${{ matrix.version }}
       - run: ${{ matrix.package-manager }} install
-      - run: ${{ matrix.package-manager }} build
+      - run: ${{ matrix.package-manager }} run build
