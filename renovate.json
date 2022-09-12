@@ -6,6 +6,10 @@
     "packageRules": [
         {
             "groupName": "Remirror packages",
+            "matchPackagePatterns": [
+                ".*remirror.*",
+                ".*prosemirror.*"
+            ],
             "rangeStrategy": "bump"
         }
     ],
