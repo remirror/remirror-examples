@@ -75,6 +75,7 @@ jobs:
           node-version: ${{ matrix.version }}
       - run: ${{ matrix.package-manager }} install
       - run: ${{ matrix.package-manager }} run build
+      - run: ${{ matrix.package-manager }} run test
 
   with-vite:
     runs-on: ubuntu-latest
