@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "@remirror/pm": "^2.0.0",
-    "@remirror/react": "^2.0.6",
+    "@remirror/react": "^2.0.7",
     "next": "^12.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "remirror": "^2.0.6"
+    "remirror": "^2.0.7"
   },
   "devDependencies": {
     "@types/jest": "^29.0.3",
