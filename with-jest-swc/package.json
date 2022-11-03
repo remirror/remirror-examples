@@ -9,8 +9,8 @@
   "license": "MIT",
   "dependencies": {
     "@remirror/pm": "^2.0.1",
-    "@remirror/react": "^2.0.15",
-    "remirror": "^2.0.14"
+    "@remirror/react": "^2.0.16",
+    "remirror": "^2.0.15"
   },
   "devDependencies": {
     "@swc/core": "^1.2.210",
