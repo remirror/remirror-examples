@@ -11,12 +11,12 @@
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
-    "@remirror/pm": "^2.0.2",
-    "@remirror/react": "^2.0.23",
-    "@remirror/styles": "^2.0.2",
+    "@remirror/pm": "^2.0.3",
+    "@remirror/react": "^2.0.24",
+    "@remirror/styles": "^2.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "remirror": "^2.0.22"
+    "remirror": "^2.0.23"
   },
   "devDependencies": {
     "@types/react": "^18.0.14",
