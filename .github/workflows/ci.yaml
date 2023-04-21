@@ -7,24 +7,6 @@ on:
     - cron: "25 10 * * 3"
 
 jobs:
-  with-create-react-app:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: with-create-react-app
-    strategy:
-      matrix:
-        node-version: ["16", "18", "20"]
-        package-manager: ["yarn", "npm"]
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.version }}
-      - run: ${{ matrix.package-manager }} install
-      - run: ${{ matrix.package-manager }} run build
-      - run: ${{ matrix.package-manager }} run test
-
   with-jest-swc:
     runs-on: ubuntu-latest
     defaults:
