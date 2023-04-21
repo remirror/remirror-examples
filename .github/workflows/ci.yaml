@@ -15,12 +15,13 @@ jobs:
     strategy:
       matrix:
         node-version: ["16", "18", "20"]
-        package-manager: ["yarn", "npm"]
+        package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.version }}
+      - run: corepack enable
       - run: ${{ matrix.package-manager }} install
       - run: ${{ matrix.package-manager }} run test
 
@@ -32,12 +33,13 @@ jobs:
     strategy:
       matrix:
         node-version: ["16", "18", "20"]
-        package-manager: ["yarn", "npm"]
+        package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.version }}
+      - run: corepack enable
       - run: ${{ matrix.package-manager }} install
       - run: ${{ matrix.package-manager }} run test
 
@@ -49,12 +51,13 @@ jobs:
     strategy:
       matrix:
         node-version: ["16", "18", "20"]
-        package-manager: ["yarn", "npm"]
+        package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.version }}
+      - run: corepack enable
       - run: ${{ matrix.package-manager }} install
       - run: ${{ matrix.package-manager }} run build
       - run: ${{ matrix.package-manager }} run test
@@ -67,11 +70,12 @@ jobs:
     strategy:
       matrix:
         node-version: ["16", "18", "20"]
-        package-manager: ["yarn", "npm"]
+        package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.version }}
+      - run: corepack enable
       - run: ${{ matrix.package-manager }} install
       - run: ${{ matrix.package-manager }} run build
