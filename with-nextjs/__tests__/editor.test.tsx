@@ -1,4 +1,3 @@
-/* eslint-disable testing-library/render-result-naming-convention */
 import { renderEditor } from "jest-remirror";
 import { HeadingExtension } from "remirror/extensions";
 

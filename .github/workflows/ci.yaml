@@ -7,25 +7,6 @@ on:
     - cron: "25 10 * * 3"
 
 jobs:
-  with-create-react-app:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: with-create-react-app
-    strategy:
-      matrix:
-        node-version: ["16", "18"]
-        package-manager: ["yarn", "npm", "pnpm"]
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.version }}
-      - run: corepack enable
-      - run: ${{ matrix.package-manager }} install
-      - run: ${{ matrix.package-manager }} run build
-      - run: ${{ matrix.package-manager }} run test
-
   with-jest-swc:
     runs-on: ubuntu-latest
     defaults:
@@ -33,7 +14,7 @@ jobs:
         working-directory: with-jest-swc
     strategy:
       matrix:
-        node-version: ["16", "18"]
+        node-version: ["16", "18", "20"]
         package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v3
@@ -51,7 +32,7 @@ jobs:
         working-directory: with-jest-ts
     strategy:
       matrix:
-        node-version: ["16", "18"]
+        node-version: ["16", "18", "20"]
         package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v3
@@ -69,7 +50,7 @@ jobs:
         working-directory: with-nextjs
     strategy:
       matrix:
-        node-version: ["16", "18"]
+        node-version: ["16", "18", "20"]
         package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v3
@@ -79,6 +60,7 @@ jobs:
       - run: corepack enable
       - run: ${{ matrix.package-manager }} install
       - run: ${{ matrix.package-manager }} run build
+      - run: ${{ matrix.package-manager }} run test
 
   with-vite:
     runs-on: ubuntu-latest
@@ -87,7 +69,7 @@ jobs:
         working-directory: with-vite
     strategy:
       matrix:
-        node-version: ["16", "18"]
+        node-version: ["16", "18", "20"]
         package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v3
