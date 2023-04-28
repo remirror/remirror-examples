@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "@remirror/pm": "^2.0.5",
-    "remirror": "^2.0.30"
+    "remirror": "^2.0.31"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
