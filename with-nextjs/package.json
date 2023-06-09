@@ -10,12 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "@remirror/pm": "^2.0.5",
-    "@remirror/react": "^2.0.28",
+    "@remirror/pm": "^2.0.6",
+    "@remirror/react": "^2.0.29",
     "next": "^13.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "remirror": "^2.0.31"
+    "remirror": "^2.0.32"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
