@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@remirror/pm": "^2.0.6",
-    "@remirror/react": "^2.0.31",
+    "@remirror/react": "^2.0.32",
     "next": "^13.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
