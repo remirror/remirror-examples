@@ -8,8 +8,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@remirror/pm": "^2.0.6",
-    "remirror": "^2.0.33"
+    "@remirror/pm": "^2.0.7",
+    "remirror": "^2.0.34"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
