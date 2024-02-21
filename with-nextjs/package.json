@@ -15,7 +15,7 @@
     "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "remirror": "^2.0.37"
+    "remirror": "^2.0.39"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
