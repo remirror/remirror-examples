@@ -1,10 +1,6 @@
 name: ci
 
-on:
-  push:
-  schedule:
-    # At 10:25 on every Wednesday
-    - cron: "25 10 * * 3"
+on: [push]
 
 jobs:
   with-jest-swc:
@@ -14,7 +10,7 @@ jobs:
         working-directory: with-jest-swc
     strategy:
       matrix:
-        node-version: ["16", "18", "20"]
+        node-version: ["18", "20"]
         package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v4
@@ -32,7 +28,7 @@ jobs:
         working-directory: with-jest-ts
     strategy:
       matrix:
-        node-version: ["16", "18", "20"]
+        node-version: ["18", "20"]
         package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v4
@@ -50,7 +46,7 @@ jobs:
         working-directory: with-nextjs
     strategy:
       matrix:
-        node-version: ["16", "18", "20"]
+        node-version: ["18", "20"]
         package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v4
@@ -69,7 +65,7 @@ jobs:
         working-directory: with-vite
     strategy:
       matrix:
-        node-version: ["16", "18", "20"]
+        node-version: ["18", "20"]
         package-manager: ["yarn", "npm", "pnpm"]
     steps:
       - uses: actions/checkout@v4
