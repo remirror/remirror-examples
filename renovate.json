@@ -11,6 +11,17 @@
                 ".*prosemirror.*"
             ],
             "rangeStrategy": "bump"
+        },
+        {
+            "groupName": "dependencies (non-major)",
+            "matchUpdateTypes": [
+                "patch",
+                "minor"
+            ],
+            "extends": [
+                "schedule:monthly"
+            ],
+            "rangeStrategy": "bump"
         }
     ],
     "rangeStrategy": "replace",
