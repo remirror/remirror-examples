@@ -16,10 +16,10 @@ import {
 } from "@remirror/react";
 
 const extensions = () => [
-  new HeadingExtension(),
-  new BoldExtension(),
-  new ItalicExtension(),
-  new UnderlineExtension(),
+  new HeadingExtension({}),
+  new BoldExtension({}),
+  new ItalicExtension({}),
+  new UnderlineExtension({}),
 ];
 
 function EditorToolbar() {
