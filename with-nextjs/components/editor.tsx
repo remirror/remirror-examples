@@ -30,7 +30,7 @@ interface MyEditorProps {
 }
 
 const CoreEditor: React.FC<MyEditorProps> = ({ onChange, initialContent }) => {
-  const { manager } = useRemirror({ extensions: () => [new BoldExtension()] });
+  const { manager } = useRemirror({ extensions: () => [new BoldExtension({})] });
   return (
     <div style={{ width: "100%", maxWidth: "500px" }}>
       <Remirror
