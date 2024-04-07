@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.0",
+    "@emotion/styled": "^11.11.5",
     "@remirror/pm": "^2.0.8",
     "@remirror/react": "^2.0.35",
     "@remirror/styles": "^2.0.7",
@@ -19,10 +19,10 @@
     "remirror": "^2.0.39"
   },
   "devDependencies": {
-    "@types/react": "^18.2.62",
-    "@types/react-dom": "^18.2.19",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
     "@vitejs/plugin-react": "^4.2.1",
     "typescript": "^5.4.4",
-    "vite": "^5.1.5"
+    "vite": "^5.2.8"
   }
 }
