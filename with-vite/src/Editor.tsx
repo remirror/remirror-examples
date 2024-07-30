@@ -1,4 +1,4 @@
-import { Remirror, ThemeProvider, Toolbar, useRemirror } from "@remirror/react";
+import { Remirror, ThemeProvider, useRemirror } from "@remirror/react";
 import { AllStyledComponent } from "@remirror/styles/emotion";
 import {
   BoldExtension,
@@ -6,14 +6,14 @@ import {
   ItalicExtension,
   UnderlineExtension,
 } from "remirror/extensions";
-
 import {
+  Toolbar,
   BasicFormattingButtonGroup,
   DataTransferButtonGroup,
   HeadingLevelButtonGroup,
   HistoryButtonGroup,
   VerticalDivider,
-} from "@remirror/react";
+} from "@remirror/react-ui";
 
 const extensions = () => [
   new HeadingExtension({}),
