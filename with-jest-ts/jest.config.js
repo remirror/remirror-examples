@@ -1,3 +1,5 @@
+import { createDefaultPreset } from "ts-jest";
+
 /*
  * For a detailed explanation regarding each configuration property and type check, visit:
  * https://jestjs.io/docs/configuration
@@ -11,14 +13,7 @@ const config = {
 
   extensionsToTreatAsEsm: [".ts", ".tsx"],
 
-  // https://kulshekhar.github.io/ts-jest/docs/guides/esm-support/
-  preset: "ts-jest/presets/default-esm",
-
-  globals: {
-    "ts-jest": {
-      useESM: true,
-    },
-  },
+  transform: { ...createDefaultPreset().transform },
 };
 
-module.exports = config;
+export default config;
