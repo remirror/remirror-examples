@@ -10,12 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
-    "@remirror/pm": "^2.0.8",
-    "@remirror/react": "^2.0.35",
+    "@remirror/pm": "^3.0.0",
+    "@remirror/react": "^3.0.0",
     "next": "^14.2.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "remirror": "^2.0.39"
+    "remirror": "^3.0.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
@@ -26,7 +26,7 @@
     "eslint-config-next": "^14.2.4",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "jest-remirror": "^2.1.5",
+    "jest-remirror": "^3.0.0",
     "typescript": "^5.5.3"
   }
 }
