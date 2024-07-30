@@ -1,4 +1,3 @@
-// jest.config.ts
 import { createDefaultPreset } from "ts-jest";
 
 /*
@@ -14,10 +13,7 @@ const config = {
 
   extensionsToTreatAsEsm: [".ts", ".tsx"],
 
-  transform: {
-    ...createDefaultPreset().transform,
-    // [...]
-  },
+  transform: { ...createDefaultPreset().transform },
 };
 
 export default config;
