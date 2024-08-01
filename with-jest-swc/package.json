@@ -13,7 +13,7 @@
     "remirror": "^3.0.0"
   },
   "devDependencies": {
-    "@swc/core": "^1.7.3",
+    "@swc/core": "^1.7.4",
     "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.12",
     "cross-env": "^7.0.3",
