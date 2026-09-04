@@ -8,18 +8,18 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@remirror/pm": "^3.0.0",
-    "@remirror/react": "^3.0.0",
-    "remirror": "^3.0.0"
+    "@remirror/pm": "^3.0.1",
+    "@remirror/react": "^3.0.3",
+    "remirror": "^3.0.3"
   },
   "devDependencies": {
-    "@swc/core": "^1.7.4",
-    "@swc/jest": "^0.2.36",
-    "@types/jest": "^29.5.12",
+    "@swc/core": "^1.16.2",
+    "@swc/jest": "^0.2.39",
+    "@types/jest": "^29.5.14",
     "cross-env": "^7.0.3",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "jest-remirror": "^3.0.0",
-    "typescript": "^5.5.4"
+    "jest-remirror": "^3.0.3",
+    "typescript": "^5.9.3"
   }
 }
